@@ -1,0 +1,6 @@
+@Cenima.IdentityApi_HostAddress = http://localhost:5124
+
+GET {{Cenima.IdentityApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

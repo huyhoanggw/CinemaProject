@@ -1,0 +1,11 @@
+               WebApp
+                        │
+                        ▼
+                API Gateway (Ocelot)
+                        │
+      ┌─────────────────┼─────────────────────┐
+      ▼                 ▼                     ▼
+ IdentityServer     Movie API           Booking API
+                                              │
+                                              ▼
+                                        Payment API

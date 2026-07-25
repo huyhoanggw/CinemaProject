@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Apis/">
+    <Project Path="Cenima.Api/Cinema.Api.csproj" Id="b743162b-d2c4-4987-8152-7a41665e7b9b" />
+  </Folder>
+  <Folder Name="/Identity/">
+    <Project Path="Cenima.IdentityApi/Cinema.IdentityApi.csproj" />
+  </Folder>
+</Solution>

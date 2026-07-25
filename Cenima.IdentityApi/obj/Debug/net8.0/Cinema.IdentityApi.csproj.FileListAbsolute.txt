@@ -1,0 +1,10 @@
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.csproj.AssemblyReference.cache
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.AssemblyInfoInputs.cache
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.AssemblyInfo.cs
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.csproj.CoreCompileInputs.cache
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.MvcApplicationPartsAssemblyInfo.cs
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.MvcApplicationPartsAssemblyInfo.cache
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.RazorAssemblyInfo.cache
+D:\asp\CenimaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.RazorAssemblyInfo.cs
