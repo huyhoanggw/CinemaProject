@@ -1,0 +1,12 @@
+D:\asp\CinemaProjectSolution\Cinema.Domain\bin\Debug\net8.0\Cinema.Domain.deps.json
+D:\asp\CinemaProjectSolution\Cinema.Domain\bin\Debug\net8.0\Cinema.Domain.dll
+D:\asp\CinemaProjectSolution\Cinema.Domain\bin\Debug\net8.0\Cinema.Domain.pdb
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.AssemblyInfoInputs.cache
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.AssemblyInfo.cs
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.csproj.CoreCompileInputs.cache
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.sourcelink.json
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.dll
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\refint\Cinema.Domain.dll
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\Cinema.Domain.pdb
+D:\asp\CinemaProjectSolution\Cinema.Domain\obj\Debug\net8.0\ref\Cinema.Domain.dll

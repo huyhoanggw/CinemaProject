@@ -1,110 +1,178 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\asp\\CenimaProjectSolution\\",
+  "WorkspaceRootPath": "D:\\asp\\CinemaProjectSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\migrations\\persistedgrant\\persistedgrantdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\migrations\\persistedgrant\\persistedgrantdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\migrations\\20260728155017_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\migrations\\20260728155017_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\migrations\\persistedgrant\\20260723171347_initialpersistedgrant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\migrations\\persistedgrant\\20260723171347_initialpersistedgrant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\database\\cenimadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\database\\cenimadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\migrations\\20260723164645_initialapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\migrations\\20260723164645_initialapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\bookingfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\bookingfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\migrations\\configuration\\configurationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\migrations\\configuration\\configurationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\migrations\\configuration\\20260723171149_initialconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\migrations\\configuration\\20260723171149_initialconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\migrations\\20260723164645_initialapplicationdbcontext.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\migrations\\20260723164645_initialapplicationdbcontext.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\cinema.identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\cinema.identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\libraryenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\libraryenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|solutionrelative:cenima.identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|solutionrelative:cenima.identityapi\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\factories\\persistedgrantdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\factories\\persistedgrantdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\database\\cenimadbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\database\\cenimadbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\factories\\configurationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\factories\\configurationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\showtimeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\showtimeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\factories\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\factories\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\cinema.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\cinema.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\configuration\\configurationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\configuration\\configurationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\configuration\\applicationuserentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\configuration\\applicationuserentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\cinema.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\cinema.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\database\\configuration\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\configuration\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\configuration\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|solutionrelative:cenima.identityapi\\configuration\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\moviegenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\moviegenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\pages\\account\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\pages\\account\\login\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\login\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\theater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\theater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\pages\\account\\login\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\login\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\pages\\account\\create\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\create\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cenima.Api\\Cenima.Api.csproj|d:\\asp\\cenimaprojectsolution\\cenima.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cenima.Api\\Cenima.Api.csproj|solutionrelative:cenima.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cenima.Api\\Cinema.Api.csproj|d:\\asp\\cenimaprojectsolution\\cenima.api\\cinema.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cenima.Api\\Cinema.Api.csproj|solutionrelative:cenima.api\\cinema.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\configuration\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\configuration\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cenima.Api\\Cinema.Api.csproj|d:\\asp\\cenimaprojectsolution\\cenima.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cenima.Api\\Cinema.Api.csproj|solutionrelative:cenima.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\cinema.identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\cinema.identityapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|d:\\asp\\cenimaprojectsolution\\cenima.identityapi\\pages\\account\\create\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D1C8CC0-FAAE-9EAD-2E24-37DD4FAB8909}|Cenima.IdentityApi\\Cenima.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\create\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\database\\factories\\persistedgrantdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\factories\\persistedgrantdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\database\\factories\\configurationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\factories\\configurationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\database\\factories\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\factories\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\database\\configuration\\applicationuserentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\configuration\\applicationuserentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\database\\configuration\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\configuration\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\pages\\account\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\database\\configuration\\configurationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\database\\configuration\\configurationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\pages\\account\\create\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\create\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\pages\\account\\login\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\login\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\pages\\account\\login\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\login\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\pages\\account\\create\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\pages\\account\\create\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\asp\\CinemaProjectSolution\\Cenima.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cenima.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cenima.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Cinema.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cenima.Api\\Cinema.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cenima.Api\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,198 +186,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "Config.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Configuration\\Config.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Configuration\\Config.cs",
               "RelativeDocumentMoniker": "Cenima.IdentityApi\\Configuration\\Config.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Configuration\\Config.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Configuration\\Config.cs",
               "RelativeToolTip": "Cenima.IdentityApi\\Configuration\\Config.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowBIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-25T08:45:44.53Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PersistedGrantDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\PersistedGrant\\PersistedGrantDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Migrations\\PersistedGrant\\PersistedGrantDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\PersistedGrant\\PersistedGrantDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Migrations\\PersistedGrant\\PersistedGrantDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Title": "20260728155017_Initial.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:19:51.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260723171347_InitialPersistedGrant.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\PersistedGrant\\20260723171347_InitialPersistedGrant.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Migrations\\PersistedGrant\\20260723171347_InitialPersistedGrant.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\PersistedGrant\\20260723171347_InitialPersistedGrant.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Migrations\\PersistedGrant\\20260723171347_InitialPersistedGrant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:19:47.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfigurationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\Configuration\\ConfigurationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Migrations\\Configuration\\ConfigurationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\Configuration\\ConfigurationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Migrations\\Configuration\\ConfigurationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:19:42.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20260723171149_InitialConfiguration.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\Configuration\\20260723171149_InitialConfiguration.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Migrations\\Configuration\\20260723171149_InitialConfiguration.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\Configuration\\20260723171149_InitialConfiguration.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Migrations\\Configuration\\20260723171149_InitialConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:19:38.849Z",
+              "WhenOpened": "2026-07-28T15:58:17.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20260723164645_InitialApplicationDbcontext.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\20260723164645_InitialApplicationDbcontext.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Migrations\\20260723164645_InitialApplicationDbcontext.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\20260723164645_InitialApplicationDbcontext.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Migrations\\20260723164645_InitialApplicationDbcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Title": "BookingFood.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\BookingFood.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\BookingFood.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\BookingFood.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\BookingFood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:19:08.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Cinema.IdentityApi",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Cinema.IdentityApi.csproj",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Cinema.IdentityApi.csproj",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Cinema.IdentityApi.csproj",
-              "RelativeToolTip": "Cenima.IdentityApi\\Cinema.IdentityApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-25T19:18:18.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationDbcontextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\ApplicationDbcontextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Migrations\\ApplicationDbcontextModelSnapshot.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\ApplicationDbcontextModelSnapshot.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Migrations\\ApplicationDbcontextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:17:00.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260723164645_InitialApplicationDbcontext.Designer.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\20260723164645_InitialApplicationDbcontext.Designer.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Migrations\\20260723164645_InitialApplicationDbcontext.Designer.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Migrations\\20260723164645_InitialApplicationDbcontext.Designer.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Migrations\\20260723164645_InitialApplicationDbcontext.Designer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:16:45.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PersistedGrantDbcontextFactory.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\PersistedGrantDbcontextFactory.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Factories\\PersistedGrantDbcontextFactory.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\PersistedGrantDbcontextFactory.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Factories\\PersistedGrantDbcontextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:15:55.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ConfigurationDbcontextFactory.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\ConfigurationDbcontextFactory.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Factories\\ConfigurationDbcontextFactory.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\ConfigurationDbcontextFactory.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Factories\\ConfigurationDbcontextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:15:46.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationDbcontextFactory.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\ApplicationDbcontextFactory.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Factories\\ApplicationDbcontextFactory.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\ApplicationDbcontextFactory.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Factories\\ApplicationDbcontextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:15:45.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Program.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Program.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Program.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T16:48:06.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationUserEntityConfiguration.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ApplicationUserEntityConfiguration.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Configuration\\ApplicationUserEntityConfiguration.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ApplicationUserEntityConfiguration.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Configuration\\ApplicationUserEntityConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:14:37.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDbcontext.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\ApplicationDbcontext.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\ApplicationDbcontext.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\ApplicationDbcontext.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\ApplicationDbcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:14:28.341Z",
+              "WhenOpened": "2026-07-28T15:34:24.104Z",
               "EditorCaption": ""
             },
             {
@@ -322,146 +233,498 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CenimaDbcontext.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Database\\CenimaDbcontext.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Database\\CenimaDbcontext.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Database\\CenimaDbcontext.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Database\\CenimaDbcontext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwEYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T17:13:32.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProfileService.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Services\\ProfileService.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Services\\ProfileService.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Services\\ProfileService.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Services\\ProfileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Title": "Showtime.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Showtime.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Showtime.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Showtime.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Showtime.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T16:58:42.961Z",
+              "WhenOpened": "2026-07-27T16:53:57.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationDbcontextSeed.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ApplicationDbcontextSeed.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Configuration\\ApplicationDbcontextSeed.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ApplicationDbcontextSeed.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Configuration\\ApplicationDbcontextSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Food.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Food.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Food.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T19:13:41.485Z",
+              "WhenOpened": "2026-07-27T17:09:04.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml",
-              "RelativeToolTip": "Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-25T18:39:16.981Z",
+              "DocumentIndex": 8,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Genre.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Genre.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Genre.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:30:03.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LibraryEnums.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\LibraryEnums.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\LibraryEnums.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\LibraryEnums.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\LibraryEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:56:17.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Booking.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Booking.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Booking.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Booking.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T17:00:10.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingSeat.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\BookingSeat.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\BookingSeat.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\BookingSeat.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\BookingSeat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:55:02.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CenimaDbcontextFactory.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Database\\CenimaDbcontextFactory.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Database\\CenimaDbcontextFactory.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Database\\CenimaDbcontextFactory.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Database\\CenimaDbcontextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T17:30:23.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\BaseEntity.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\BaseEntity.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:23:20.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ShowtimeSeat.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\ShowtimeSeat.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\ShowtimeSeat.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\ShowtimeSeat.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\ShowtimeSeat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:54:36.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\appsettings.json",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\appsettings.json",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\appsettings.json",
+              "RelativeToolTip": "Cinema.Infrastructure\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-27T18:59:25.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cinema.Api.http",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Cinema.Api.http",
+              "RelativeDocumentMoniker": "Cinema.Api\\Cinema.Api.http",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Cinema.Api.http",
+              "RelativeToolTip": "Cinema.Api\\Cinema.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-07-27T18:59:59.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ConfigurationDbcontextSeed.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ConfigurationDbcontextSeed.cs",
-              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Configuration\\ConfigurationDbcontextSeed.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ConfigurationDbcontextSeed.cs",
-              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Configuration\\ConfigurationDbcontextSeed.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T18:32:57.904Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Cinema.Api\\appsettings.json",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\appsettings.json",
+              "RelativeToolTip": "Cinema.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-27T18:58:39.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Cinema.Api",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.Api\\Cinema.Api.csproj",
+              "DocumentIndex": 15,
+              "Title": "Cinema.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+              "RelativeToolTip": "Cinema.Infrastructure\\Cinema.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-27T17:13:06.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\appsettings.json",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\appsettings.json",
+              "RelativeToolTip": "Cenima.IdentityApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-27T17:43:54.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Cenima.Api\\appsettings.json",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.Api\\appsettings.json",
+              "RelativeToolTip": "Cenima.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-27T17:44:05.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Cenima.Api\\Program.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Program.cs",
+              "RelativeToolTip": "Cenima.Api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:43:31.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Cinema.Api.csproj",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Cinema.Api.csproj",
               "RelativeDocumentMoniker": "Cenima.Api\\Cinema.Api.csproj",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.Api\\Cinema.Api.csproj",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Cinema.Api.csproj",
               "RelativeToolTip": "Cenima.Api\\Cinema.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-25T09:07:50.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T09:07:50.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Cenima.Api\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Cenima.Api\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-25T09:07:53.286Z",
-              "EditorCaption": ""
+              "DocumentIndex": 17,
+              "Title": "MovieGenre.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\MovieGenre.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\MovieGenre.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\MovieGenre.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\MovieGenre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:36:44.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Theater.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Theater.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Theater.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Theater.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Theater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:45:02.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Seat.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Seat.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Seat.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:42:04.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Payment.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Payment.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Payment.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:55:17.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Movie.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Movie.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Movie.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T16:16:28.447Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Cenima.Api\\Program.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.Api\\Program.cs",
-              "RelativeToolTip": "Cenima.Api\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwD8AAAAwAAAAAAAAAA==",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Class1.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Class1.cs",
+              "RelativeToolTip": "Cinema.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:43:31.315Z",
+              "WhenOpened": "2026-07-27T16:15:53.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Cinema.IdentityApi.csproj",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Cinema.IdentityApi.csproj",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Cinema.IdentityApi.csproj",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Cinema.IdentityApi.csproj",
+              "RelativeToolTip": "Cenima.IdentityApi\\Cinema.IdentityApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-25T19:18:18.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "PersistedGrantDbcontextFactory.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\PersistedGrantDbcontextFactory.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Factories\\PersistedGrantDbcontextFactory.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\PersistedGrantDbcontextFactory.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Factories\\PersistedGrantDbcontextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T19:15:55.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ConfigurationDbcontextFactory.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\ConfigurationDbcontextFactory.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Factories\\ConfigurationDbcontextFactory.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\ConfigurationDbcontextFactory.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Factories\\ConfigurationDbcontextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T19:15:46.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbcontextFactory.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\ApplicationDbcontextFactory.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Factories\\ApplicationDbcontextFactory.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Factories\\ApplicationDbcontextFactory.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Factories\\ApplicationDbcontextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T19:15:45.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Program.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Program.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Program.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T16:48:06.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationUserEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ApplicationUserEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Configuration\\ApplicationUserEntityConfiguration.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ApplicationUserEntityConfiguration.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Configuration\\ApplicationUserEntityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T19:14:37.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationDbcontext.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\ApplicationDbcontext.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\ApplicationDbcontext.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\ApplicationDbcontext.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Database\\ApplicationDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T19:14:28.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Services\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Services\\ProfileService.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Services\\ProfileService.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Services\\ProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T16:58:42.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApplicationDbcontextSeed.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ApplicationDbcontextSeed.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Configuration\\ApplicationDbcontextSeed.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ApplicationDbcontextSeed.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Configuration\\ApplicationDbcontextSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T19:13:41.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml",
+              "RelativeToolTip": "Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-25T18:39:16.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ConfigurationDbcontextSeed.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ConfigurationDbcontextSeed.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Database\\Configuration\\ConfigurationDbcontextSeed.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Database\\Configuration\\ConfigurationDbcontextSeed.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Database\\Configuration\\ConfigurationDbcontextSeed.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T18:32:57.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Cenima.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Cenima.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-25T09:07:53.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Create\\Index.cshtml.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Create\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Cenima.IdentityApi\\Pages\\Account\\Create\\Index.cshtml.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Create\\Index.cshtml.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Create\\Index.cshtml.cs",
               "RelativeToolTip": "Cenima.IdentityApi\\Pages\\Account\\Create\\Index.cshtml.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAIwIMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T16:49:36.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T16:49:36.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml.cs",
               "RelativeToolTip": "Cenima.IdentityApi\\Pages\\Account\\Login\\Index.cshtml.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAowGsAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T16:49:08.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-24T16:49:08.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "ViewModel.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\ViewModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\ViewModel.cs",
               "RelativeDocumentMoniker": "Cenima.IdentityApi\\Pages\\Account\\Login\\ViewModel.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\ViewModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Login\\ViewModel.cs",
               "RelativeToolTip": "Cenima.IdentityApi\\Pages\\Account\\Login\\ViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T18:37:33.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T18:37:33.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 38,
               "Title": "InputModel.cs",
-              "DocumentMoniker": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Create\\InputModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Create\\InputModel.cs",
               "RelativeDocumentMoniker": "Cenima.IdentityApi\\Pages\\Account\\Create\\InputModel.cs",
-              "ToolTip": "D:\\asp\\CenimaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Create\\InputModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Pages\\Account\\Create\\InputModel.cs",
               "RelativeToolTip": "Cenima.IdentityApi\\Pages\\Account\\Create\\InputModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T18:35:57.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T18:35:57.234Z"
             }
           ]
         }

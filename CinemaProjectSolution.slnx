@@ -1,6 +1,9 @@
 <Solution>
   <Folder Name="/Apis/">
-    <Project Path="Cenima.Api/Cinema.Api.csproj" Id="b743162b-d2c4-4987-8152-7a41665e7b9b" />
+    <Project Path="Cinema.Api/Cinema.Api.csproj" Id="b743162b-d2c4-4987-8152-7a41665e7b9b" />
+    <Project Path="Cinema.Application/Cinema.Application.csproj" Id="b5ed890a-e781-4a9e-aace-c0b28bfdf215" />
+    <Project Path="Cinema.Domain/Cinema.Domain.csproj" Id="ccbf6d6f-120c-48bf-972a-7883007afe1d" />
+    <Project Path="Cinema.Infrastructure/Cinema.Infrastructure.csproj" Id="dfdc40c5-c1ad-413c-b1f6-f2103509a8db" />
   </Folder>
   <Folder Name="/Identity/">
     <Project Path="Cenima.IdentityApi/Cinema.IdentityApi.csproj" />
