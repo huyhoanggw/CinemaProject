@@ -14,3 +14,5 @@ D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Domain.d
 D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Domain.pdb
 D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\Cinema.Application.csproj.AssemblyReference.cache
 D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\Cinema.A.B61B4880.Up2Date
+D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\SeedWorks.dll
+D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\SeedWorks.pdb

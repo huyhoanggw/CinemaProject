@@ -4,6 +4,7 @@
     <Project Path="Cinema.Application/Cinema.Application.csproj" Id="b5ed890a-e781-4a9e-aace-c0b28bfdf215" />
     <Project Path="Cinema.Domain/Cinema.Domain.csproj" Id="ccbf6d6f-120c-48bf-972a-7883007afe1d" />
     <Project Path="Cinema.Infrastructure/Cinema.Infrastructure.csproj" Id="dfdc40c5-c1ad-413c-b1f6-f2103509a8db" />
+    <Project Path="SeedWorks/SeedWorks.csproj" Id="b05ae058-3c42-443e-a49d-de21035aa225" />
   </Folder>
   <Folder Name="/Identity/">
     <Project Path="Cenima.IdentityApi/Cinema.IdentityApi.csproj" />

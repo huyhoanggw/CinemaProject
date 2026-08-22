@@ -20,7 +20,12 @@ namespace Cinema.Domain.Enitities
 
         public ShowtimeSeatStatus Status { get; set; }
 
-        public DateTime? HeldUntil { get; set; }
+        public string? ReservedBy { get; set; }
+
+        public DateTime? ReservedAt { get; set; }
+
+        public DateTime? ReservedUntil { get; set; }
+        public byte[] RowVersion { get; set; } = [];
 
         public ICollection<BookingSeat> BookingSeats { get; set; } = [];
     }

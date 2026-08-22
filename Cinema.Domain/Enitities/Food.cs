@@ -10,6 +10,7 @@ namespace Cinema.Domain.Enitities
     {
         public string Name { get; set; }
         public decimal Price { get; set; }
+        public int Quanlity { get; set; }
         public ICollection<BookingFood> BookingFoods { get; set; } = [];
     }
 }

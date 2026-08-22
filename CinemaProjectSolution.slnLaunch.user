@@ -8,7 +8,7 @@
         "DebugTarget": "https"
       },
       {
-        "Path": "Cenima.Api\\Cinema.Api.csproj",
+        "Path": "Cinema.Api\\Cinema.Api.csproj",
         "Action": "Start",
         "DebugTarget": "https"
       }

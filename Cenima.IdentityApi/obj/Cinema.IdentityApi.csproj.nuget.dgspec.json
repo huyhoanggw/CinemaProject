@@ -75,7 +75,7 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.29, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

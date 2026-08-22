@@ -18,3 +18,5 @@ D:\asp\CinemaProjectSolution\Cinema.Infrastructure\bin\Debug\net8.0\Cinema.Domai
 D:\asp\CinemaProjectSolution\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.csproj.AssemblyReference.cache
 D:\asp\CinemaProjectSolution\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.I.121B45F8.Up2Date
 D:\asp\CinemaProjectSolution\Cinema.Infrastructure\obj\Debug\net8.0\Cinema.Infrastructure.genruntimeconfig.cache
+D:\asp\CinemaProjectSolution\Cinema.Infrastructure\bin\Debug\net8.0\SeedWorks.dll
+D:\asp\CinemaProjectSolution\Cinema.Infrastructure\bin\Debug\net8.0\SeedWorks.pdb

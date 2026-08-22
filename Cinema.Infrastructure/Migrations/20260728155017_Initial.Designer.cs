@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Cinema.Infrastructure.Migrations
 {
-    [DbContext(typeof(CenimaDbcontext))]
+    [DbContext(typeof(CinemaDbcontext))]
     [Migration("20260728155017_Initial")]
     partial class Initial
     {

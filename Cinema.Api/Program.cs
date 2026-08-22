@@ -1,12 +1,13 @@
 
-using Microsoft.Extensions.Options;
+using Cinema.Api.Middleware;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
 
 namespace Cinema.Api
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public async static Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,43 @@ namespace Cinema.Api
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            
+
+
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
+           {
+               option.Authority = "https://localhost:5004";
+               option.RequireHttpsMetadata = true;
+               option.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+               {
+                   ValidateIssuer = true,
+                   ValidateAudience = false,
+                   ValidateLifetime = true,
+                   ValidateIssuerSigningKey = true,
+               };
+               option.Events = new JwtBearerEvents
+               {
+                   OnMessageReceived = context =>
+                   {
+                       Console.WriteLine("========== JWT RECEIVED ==========");
+                       var auth = context.Request.Headers.Authorization.ToString();
+
+                       Console.WriteLine($"Authorization: {auth}");
+                       return Task.CompletedTask;
+                   },
+                   OnAuthenticationFailed = context =>
+                   {
+                       Console.WriteLine("========== JWT ERROR ==========");
+                       Console.WriteLine(context.Exception);
+                       Console.WriteLine("================================");
+
+                       return Task.CompletedTask;
+                   }
+
+
+                                };
+           }
+
+           );
             builder.Services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo
@@ -57,7 +94,49 @@ namespace Cinema.Api
                     }
                 });
             });
+            builder.Services.AddAuthorization(options =>
+            {
+                var permissions = new[]
+                {
+        "food.create",
+        "food.delete",
+        "food.read",
+        "food.update",
 
+        "genre.create",
+        "genre.delete",
+        "genre.read",
+        "genre.update",
+
+        "movie.create",
+        "movie.delete",
+        "movie.read",
+        "movie.update",
+
+        "seat.create",
+        "seat.delete",
+        "seat.read",
+        "seat.update",
+
+        "showtime.create",
+        "showtime.delete",
+        "showtime.read",
+        "showtime.update",
+
+        "theater.create",
+        "theater.delete",
+        "theater.read",
+        "theater.update"
+                };
+
+                foreach(var permission in permissions)
+                {
+                    options.AddPolicy(permission, policy =>
+                    {
+                        policy.RequireClaim("permission", permission);
+                    });
+                }
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -69,12 +148,14 @@ namespace Cinema.Api
                     options.OAuthClientId("cinema-swagger");
                     options.OAuthUsePkce();
                 }
-                
+
                     );
             }
 
-            app.UseHttpsRedirection();
 
+            app.UseHttpsRedirection();
+            app.UseAuthentication();
+            app.UseMiddleware<GlobalExceptionMiddleware>();
             app.UseAuthorization();
 
 

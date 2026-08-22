@@ -9,8 +9,8 @@ namespace Cinema.Domain.Enitities
 {
     public class Movie : BaseEntity
     {
-        public int Name { get; set; }
-        public string Description { get; set; } = " Mô tả trống";
+        public string Name { get; set; }
+        public string? Description { get; set; } 
         public ICollection<MovieGenre> MovieGenre { get; set; } = [];
         public string? PosterUrl { get; set; }
 

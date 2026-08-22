@@ -3,6 +3,9 @@ using Cenima.IdentityApi.Database;
 using Cenima.IdentityApi.Database.Models;
 using Cinema.IdentityApi.Database;
 using Cinema.IdentityApi.Database.Configuration;
+using Cinema.IdentityApi.Helpers;
+using Cinema.IdentityApi.Interfaces;
+using Cinema.IdentityApi.PermissionModule.Seeder;
 using Cinema.IdentityApi.Services;
 using Duende.IdentityServer.EntityFramework.DbContexts;
 using Duende.IdentityServer.Services;
@@ -18,6 +21,7 @@ namespace Cinema.IdentityApi
             var builder = WebApplication.CreateBuilder(args);
             //add services 
             builder.Services.AddTransient<IProfileService, ProfileService>();
+            builder.Services.AddTransient<IPermissionServices, PermissionService>();
             // add dbcontext
             builder.Services.AddDbContext<ApplicationDbcontext>(option =>
             {
@@ -44,7 +48,9 @@ namespace Cinema.IdentityApi
                    {
                        b.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sql => sql.MigrationsAssembly(typeof(Program).Assembly.GetName().Name));
                    };
-               });
+               }).AddDeveloperSigningCredential().AddProfileService<ProfileService>(); ; // sau này dùng identityserver thì cài thêm credential và private key , các api sẽ lấy public key về để verify token 
+                // private key là jwt mà identityserver đã ký 
+                // sau khi ký sẽ pulish cho các api thành public key và các api lấy public key đó để verify token vd như AddAuthentication sẽ lấy jwt từ identityserver để login
             builder.Services.AddControllers();
             builder.Services.AddRazorPages();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -63,6 +69,7 @@ namespace Cinema.IdentityApi
             {
                 var services = scope.ServiceProvider;
                 var logger = services.GetRequiredService<ILogger<Program>>();
+                
                 try
                 {
                     // migrate applicationdbcontex
@@ -74,9 +81,12 @@ namespace Cinema.IdentityApi
                     // migrate PersistedGrantDbcontext
                     services.GetRequiredService<PersistedGrantDbContext>()
                         .Database.Migrate();
-
+                    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
                     await new ApplicationDbcontextSeed().SeedAsync(services.GetRequiredService<ApplicationDbcontext>(), services.GetRequiredService<ILogger<ApplicationDbcontextSeed>>());
                     await new ConfigurationDbcontextSeed().SeedAsync(services.GetRequiredService<ConfigurationDbContext>());
+                    await PermissionSeed.SeedAsync(services.GetRequiredService<ApplicationDbcontext>());
+                    await RoleManagerSeed.SeedAsync(roleManager);
+                    await AddPermissionsForAdmin.AddAsync(services.GetRequiredService<ApplicationDbcontext>());
                     logger.LogWarning("seed data complete");
                 }
                 catch (Exception ex)

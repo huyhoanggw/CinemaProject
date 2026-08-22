@@ -17,7 +17,7 @@ namespace Cinema.Domain.Enitities
     public enum ShowtimeSeatStatus
     {
         Available,
-        Held,
+        Hold,
         Booked
     }
 

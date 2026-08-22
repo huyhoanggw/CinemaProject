@@ -22,7 +22,8 @@ namespace Cinema.Domain.Enitities
 
         public ICollection<BookingSeat> BookingSeats { get; set; } = [];
         public ICollection<BookingFood> BookingFoods { get; set; } = [];
-
+        public DateTime ExpiredAt { get; set; }
         public Payment? Payment { get; set; }
     }
 }
+        

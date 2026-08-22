@@ -45,7 +45,7 @@ namespace Cinema.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<int>(type: "int", nullable: false),
+                    Name = table.Column<string>(type: "string", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PosterUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TrailerUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
