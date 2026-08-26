@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Seat.Queries.Pagination
 {
-    public class GetFoodPagingQuery : ItemQueryParameters, IRequest<ApiResult<PagedResult<Domain.Enitities.Seat>>>
+    public class GetSeatPagingQuery : ItemQueryParameters, IRequest<ApiResult<PagedResult<Domain.Enitities.Seat>>>
     {
         }
 }

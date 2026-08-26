@@ -20,8 +20,13 @@ namespace Cinema.Application.Features.Genre.Commands.Create
         {
             logger.LogInformation("begin :CreateGenreCommandHandler ");
             var genre = await repository.GetByAsync(_ => _.Name.Equals(request.Name));
-            if (genre is null) return new ApiErrorResult<CreateGenreModel>("Genre name duplicate");
-            await repository.CreateAsync(genre);
+            if (genre is not null) return new ApiErrorResult<CreateGenreModel>("Genre name duplicate");
+            var genreToAdd = new Domain.Enitities.Genre()
+            {
+                Id = Guid.NewGuid(),
+                Name = request.Name
+            };
+            await repository.CreateAsync(genreToAdd);
              var result = await unitOfWork.SaveChangeAsync();
             if (result <= 0) return new ApiErrorResult<CreateGenreModel>("Error occurred while create genre");
             var genreTomapper = mapper.Map<CreateGenreModel>(genre);

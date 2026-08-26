@@ -12,9 +12,9 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Theater.Commands.Delete
 {
-    public class DeleteFoodCommandHandler(ITheaterRepository theaterRepsitory , IUnitOfWork unitOfWork,ILogger<DeleteFoodCommandHandler> logger) : IRequestHandler<DeleteSeatCommand, ApiResult<bool>>
+    public class DeleteTheaterCommandHandler(ITheaterRepository theaterRepsitory , IUnitOfWork unitOfWork,ILogger<DeleteTheaterCommandHandler> logger) : IRequestHandler<DeleteTheaterCommand, ApiResult<bool>>
     {
-        public async Task<ApiResult<bool>> Handle(DeleteSeatCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResult<bool>> Handle(DeleteTheaterCommand request, CancellationToken cancellationToken)
         {
             logger.LogInformation("begin: DeleteTheaterCommandHandler");
             var theater = await theaterRepsitory.FindByIdAsync(request.Id);

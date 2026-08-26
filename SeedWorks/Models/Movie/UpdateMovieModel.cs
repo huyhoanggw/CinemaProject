@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Movie
 {
-    public record UpdateMovieModel(
-             string Name,
-            string? Description,
-            List<MovieGenre> MovieGenres,
-            string? PosterUrl,
-            string? TrailerUrl
-        );
-   }
+    public record UpdateMovieModel
+    {
+        public string Name { get; init; } = default!;
+        public string? Description { get; init; }
+        public List<Guid> MovieGenres { get; init; }
+        public string? PosterUrl { get; init; }
+        public string? TrailerUrl { get; init; }
+
+    }
+}

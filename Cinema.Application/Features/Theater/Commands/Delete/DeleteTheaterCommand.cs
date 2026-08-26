@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Theater.Commands.Delete
 {
-    public class DeleteSeatCommand : IRequest<ApiResult<bool>>
+    public class DeleteTheaterCommand : IRequest<ApiResult<bool>>
     {
         public Guid Id { get; set; }
     }

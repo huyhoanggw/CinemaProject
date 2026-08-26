@@ -14,10 +14,10 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Theater.Commands.Update
 {
-    public class UpdateFoodCommandHandler(ITheaterRepository theaterRepository , IMapper mapper , ILogger<UpdateFoodCommandHandler> logger , IUnitOfWork unitOfWork )
-        : IRequestHandler<UpdateFoodCommand, ApiResult<UpdateTheaterModel>>
+    public class UpdateTheaterCommandHandler(ITheaterRepository theaterRepository , IMapper mapper , ILogger<UpdateTheaterCommandHandler> logger , IUnitOfWork unitOfWork )
+        : IRequestHandler<UpdateTheaterCommand, ApiResult<UpdateTheaterModel>>
     {
-        public async Task<ApiResult<UpdateTheaterModel>> Handle(UpdateFoodCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResult<UpdateTheaterModel>> Handle(UpdateTheaterCommand request, CancellationToken cancellationToken)
         {
             logger.LogInformation("begin:UpdateTheaterCommandHandler");
             var theater = await theaterRepository.FindByIdAsync(request.Id );

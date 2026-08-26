@@ -16,6 +16,6 @@ namespace Cinema.Application.Features.Movie.Commands.Create
         public string?  Description { get; set; }
         public string? PosterUrl { get; set; }
         public string? TrailerUrl {  get; set; }
-        public List<MovieGenre >Genres { get; set; } = [];
+        public List<Guid> GenreIds{ get; set; } = [];
     }
 }

@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Theater
 {
-    public record UpdateTheaterModel(
-            Guid Id ,
-            string Name
-        );
-    
+    public record UpdateTheaterModel
+    {
+      public  Guid Id { get; set; }
+           public string Name { get; set; }
+            }
+           
+          
 }

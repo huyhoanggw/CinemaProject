@@ -7,18 +7,20 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Showtime
 {
-   public  record UpdateShowtimeModel(
-    
-    Cinema.Domain.Enitities.Movie Movie , 
-     Guid TheaterId ,
+    public record UpdateShowtimeModel
+    {
+        public Cinema.Domain.Enitities.Movie Movie { get; set; }
 
-     Cinema.Domain.Enitities.Theater Theater , 
-     DateTime StartTime ,
 
-     DateTime EndTime ,
+        public Cinema.Domain.Enitities.Theater Theater { get; set; }
+        public DateTime StartTime { get; set; }
 
-     decimal BasePrice ,
+        public DateTime EndTime { get; set; }
 
-     ShowtimeStatus Status 
-        );
-    }
+        public decimal BasePrice { get; set; }
+
+        public ShowtimeStatus Status { get; set; }
+
+           }
+
+}

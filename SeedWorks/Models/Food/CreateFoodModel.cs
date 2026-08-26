@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Food
 {
-    public record CreateFoodModel(
-          string Name ,
-          decimal Price, 
-          int Quanlity 
-        );
-    
+    public record CreateFoodModel
+    {
+     public   string Name {get;set;}
+          public decimal Price {get;set;}
+        public int Quanlity { get; set; }
+    }
+          
+          
 }

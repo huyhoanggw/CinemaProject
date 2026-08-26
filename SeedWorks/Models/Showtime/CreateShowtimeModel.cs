@@ -7,25 +7,25 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Showtime
 {
-    public record CreateShowtimeModel(
+    public record CreateShowtimeModel
+    {
+        public Cinema.Domain.Enitities.Movie Movie{get;set;}
 
 
-           
-             Cinema.Domain.Enitities.Movie Movie , 
+      public Cinema.Domain.Enitities.Theater Theater{get;set;}
+      public DateTime StartTime {get;set;}
 
-             
-              Cinema.Domain.Enitities.Theater Theater , 
-              DateTime StartTime ,
+         public DateTime EndTime{get;set;}
 
-             DateTime EndTime ,
+      public decimal BasePrice{get;set;}
 
-              decimal BasePrice ,
+      public ShowtimeStatus Status {get;set;}
 
-             ShowtimeStatus Status ,
+       public ICollection<Guid> ShowtimeSeatIds{get;set;}
+       public ICollection<Guid> BookingIds {get;set;}
+    }
 
-              ICollection<ShowtimeSeat> ShowtimeSeats    ,  
-              ICollection<Cinema.Domain.Enitities.Booking> Bookings   
-            );
-    
-    
+
+
+
 }

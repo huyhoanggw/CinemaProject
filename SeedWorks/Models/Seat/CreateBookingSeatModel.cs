@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Seat
 {
-    public record CreateBookingSeatModel(
-         Guid showtimeSeatId    
-        );
-    
-    
+    public record CreateBookingSeatModel
+    {
+    public   Guid showtimeSeatId {  get; set; }
+
+
+
+ }
+
 }

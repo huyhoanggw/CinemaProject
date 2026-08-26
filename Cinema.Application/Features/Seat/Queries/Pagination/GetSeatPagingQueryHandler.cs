@@ -13,9 +13,9 @@ using System.Threading.Tasks;
 namespace Cinema.Application.Features.Seat.Queries.Pagination
 {
     public class GetSeatPagingQueryHandler(ISeatRepository SeatRepository , ILogger<GetSeatPagingQueryHandler> logger) 
-        : IRequestHandler<GetFoodPagingQuery, ApiResult<PagedResult<Domain.Enitities.Seat>>>
+        : IRequestHandler<GetSeatPagingQuery, ApiResult<PagedResult<Domain.Enitities.Seat>>>
     {
-        public async Task<ApiResult<PagedResult<Domain.Enitities.Seat>>> Handle(GetFoodPagingQuery request, CancellationToken cancellationToken)
+        public async Task<ApiResult<PagedResult<Domain.Enitities.Seat>>> Handle(GetSeatPagingQuery request, CancellationToken cancellationToken)
         {
             logger.LogInformation("begin : GetSeatPagingQueryHandler");
 

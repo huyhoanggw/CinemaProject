@@ -3,20 +3,148 @@
   "WorkspaceRootPath": "D:\\asp\\CinemaProjectSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\backgroundservices\\bookingexprationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\backgroundservices\\bookingexprationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\di\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\di\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\database\\seed\\cinemadbcontextseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\database\\seed\\cinemadbcontextseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\showtime\\commands\\create\\createshowtimecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\showtime\\commands\\create\\createshowtimecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\database\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\database\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\database\\cinemadbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\database\\cinemadbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\showtime\\commands\\create\\createshowtimecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\showtime\\commands\\create\\createshowtimecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\controllers\\showtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\controllers\\showtimecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\controllers\\seatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\automappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\automappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\showtime\\commands\\update\\updateshowtimecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\showtime\\commands\\update\\updateshowtimecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\showtime\\commands\\update\\updateshowtimecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\showtime\\commands\\update\\updateshowtimecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\interfaces\\ishowtimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\interfaces\\ishowtimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\movie\\commands\\update\\updatemoviecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\movie\\commands\\update\\updatemoviecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\movie\\updatemoviemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\movie\\updatemoviemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\theater\\updatetheatermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\theater\\updatetheatermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\theater\\createtheatermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\theater\\createtheatermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\showtime\\updateshowtimemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\showtime\\updateshowtimemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\showtime\\createshowtimemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\showtime\\createshowtimemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\seat\\updatebookingseatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\seat\\updatebookingseatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\seat\\createbookingseatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\seat\\createbookingseatmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\food\\updatefoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\food\\updatefoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\movie\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\movie\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\genre\\updategenremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\genre\\updategenremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\genre\\creategenremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\genre\\creategenremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\food\\updatebookingfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\food\\updatebookingfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\food\\createfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\food\\createfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\food\\createbookingfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\food\\createbookingfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\booking\\updatebookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\booking\\updatebookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\booking\\createbookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\booking\\createbookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\queries\\pagination\\getseatpagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\queries\\pagination\\getseatpagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\queries\\pagination\\getseatpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\queries\\pagination\\getseatpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\queries\\getseatbyid\\getseatbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\queries\\getseatbyid\\getseatbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\queries\\getseatbyid\\getseatbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\queries\\getseatbyid\\getseatbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\commands\\update\\updateseatcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +155,12 @@
       "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\commands\\update\\updateseatcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\commands\\delete\\deleteseatcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\commands\\delete\\deleteseatcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\commands\\delete\\deleteseatcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\commands\\delete\\deleteseatcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\commands\\delete\\deleteseatcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\commands\\delete\\deleteseatcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\commands\\create\\createseatcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,36 +171,160 @@
       "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\commands\\create\\createseatcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\queries\\getfoodbyname\\getfoodbynamequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\queries\\getfoodbyname\\getfoodbynamequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\seat\\queries\\pagination\\getseatpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\seat\\queries\\pagination\\getseatpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\queries\\getfoodbyname\\getfoodbynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\queries\\getfoodbyname\\getfoodbynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\queries\\getfoodbyid\\getfoodbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\queries\\getfoodbyid\\getfoodbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\controllers\\theatercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\controllers\\theatercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\commands\\delete\\deletefoodcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\commands\\delete\\deletefoodcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\commands\\create\\createtheatercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\commands\\create\\createtheatercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\commands\\update\\updatefoodcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\commands\\update\\updatefoodcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\commands\\update\\updatetheatercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\commands\\update\\updatetheatercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\commands\\update\\updatefoodcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\commands\\update\\updatefoodcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\commands\\update\\updatetheatercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\commands\\update\\updatetheatercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\commands\\create\\createfoodcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\commands\\create\\createfoodcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\commands\\create\\createtheatercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\commands\\create\\createtheatercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\commands\\create\\createfoodcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\commands\\create\\createfoodcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\commands\\delete\\deletetheatercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\commands\\delete\\deletetheatercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\commands\\delete\\deletetheatercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\commands\\delete\\deletetheatercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\constant\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\constant\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\showtime\\queries\\pagination\\getshowtimepagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\showtime\\queries\\pagination\\getshowtimepagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\movie\\commands\\create\\createmoviecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\movie\\commands\\create\\createmoviecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\booking\\commands\\create\\createbookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\booking\\commands\\create\\createbookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\reponse\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\reponse\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\movie\\commands\\create\\createmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\movie\\commands\\create\\createmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\genre\\queries\\pagination\\getgenrepagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\genre\\queries\\pagination\\getgenrepagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\reponse\\apisuccessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\reponse\\apisuccessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\booking\\queries\\pagination\\getbookingpagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\booking\\queries\\pagination\\getbookingpagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\genre\\queries\\pagination\\getgenrepagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\genre\\queries\\pagination\\getgenrepagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\booking\\queries\\pagination\\getbookingpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\booking\\queries\\pagination\\getbookingpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\attribute\\permissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\attribute\\permissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\genre\\commands\\create\\creategenrecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\genre\\commands\\create\\creategenrecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\genre\\commands\\create\\creategenrecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\genre\\commands\\create\\creategenrecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\interfaces\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\interfaces\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\interfaces\\iseatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\interfaces\\iseatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\repositories\\seatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\repositories\\seatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\showtimeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\showtimeseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|d:\\asp\\cinemaprojectsolution\\cinema.domain\\enitities\\moviegenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\moviegenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8961F4A2-F2B1-4D1F-82A8-2ECA55D550BF}|Cinema.AI\\Cinema.AI.csproj|d:\\asp\\cinemaprojectsolution\\cinema.ai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8961F4A2-F2B1-4D1F-82A8-2ECA55D550BF}|Cinema.AI\\Cinema.AI.csproj|solutionrelative:cinema.ai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|d:\\asp\\cinemaprojectsolution\\cenima.identityapi\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9D47DA-B723-F349-181B-6CE6D1ABD526}|Cenima.IdentityApi\\Cinema.IdentityApi.csproj|solutionrelative:cenima.identityapi\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\repositories\\moviegenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\repositories\\moviegenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\repositories\\bookingexpirationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\repositories\\bookingexpirationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8961F4A2-F2B1-4D1F-82A8-2ECA55D550BF}|Cinema.AI\\Cinema.AI.csproj|d:\\asp\\cinemaprojectsolution\\cinema.ai\\services\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8961F4A2-F2B1-4D1F-82A8-2ECA55D550BF}|Cinema.AI\\Cinema.AI.csproj|solutionrelative:cinema.ai\\services\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8961F4A2-F2B1-4D1F-82A8-2ECA55D550BF}|Cinema.AI\\Cinema.AI.csproj|d:\\asp\\cinemaprojectsolution\\cinema.ai\\interfaces\\ichatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8961F4A2-F2B1-4D1F-82A8-2ECA55D550BF}|Cinema.AI\\Cinema.AI.csproj|solutionrelative:cinema.ai\\interfaces\\ichatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\migrations\\20260809183552_secondtableupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,72 +347,8 @@
       "RelativeMoniker": "D:0:0:{CCBF6D6F-120C-48BF-972A-7883007AFE1D}|Cinema.Domain\\Cinema.Domain.csproj|solutionrelative:cinema.domain\\enitities\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\queries\\pagination\\getfoodpagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\queries\\pagination\\getfoodpagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\queries\\pagination\\getfoodpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\queries\\pagination\\getfoodpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\queries\\getfoodbyid\\getfoodbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\queries\\getfoodbyid\\getfoodbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\queries\\gettheaterbyid\\gettheaterbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\queries\\gettheaterbyid\\gettheaterbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\queries\\gettheaterbyid\\gettheaterbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\queries\\gettheaterbyid\\gettheaterbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\queries\\pagination\\gettheaterpagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\queries\\pagination\\gettheaterpagingqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\theater\\queries\\pagination\\gettheaterpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\theater\\queries\\pagination\\gettheaterpagingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\database\\cinemadbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\database\\cinemadbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\database\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\database\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\repositories\\foodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\repositories\\foodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\food\\commands\\delete\\deletefoodcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\food\\commands\\delete\\deletefoodcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\food\\updatefoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\food\\updatefoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\food\\createfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\food\\createfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|d:\\asp\\cinemaprojectsolution\\seedworks\\models\\food\\createbookingfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B05AE058-3C42-443E-A49D-DE21035AA225}|SeedWorks\\SeedWorks.csproj|solutionrelative:seedworks\\models\\food\\createbookingfoodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\di\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|solutionrelative:cinema.infrastructure\\di\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\di\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\di\\servicecontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|d:\\asp\\cinemaprojectsolution\\cinema.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B743162B-D2C4-4987-8152-7A41665E7B9B}|Cinema.Api\\Cinema.Api.csproj|solutionrelative:cinema.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,401 +358,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetSeatPagingQueryHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQueryHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQueryHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQueryHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:20:13.523Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetSeatPagingQuery.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQuery.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQuery.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQuery.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Program.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Program.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Program.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwE0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:20:04.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetSeatByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\GetSeatById\\GetSeatByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Queries\\GetSeatById\\GetSeatByIdQueryHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\GetSeatById\\GetSeatByIdQueryHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Queries\\GetSeatById\\GetSeatByIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:19:31.517Z",
+              "WhenOpened": "2026-08-26T20:13:17.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetSeatByIdQuery.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\GetSeatById\\GetSeatByIdQuery.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Queries\\GetSeatById\\GetSeatByIdQuery.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\GetSeatById\\GetSeatByIdQuery.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Queries\\GetSeatById\\GetSeatByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Title": "CreateShowtimeCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Commands\\Create\\CreateShowtimeCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Showtime\\Commands\\Create\\CreateShowtimeCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Commands\\Create\\CreateShowtimeCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Showtime\\Commands\\Create\\CreateShowtimeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:19:24.799Z",
+              "WhenOpened": "2026-08-26T19:24:28.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateSeatCommand.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommand.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommand.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommand.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CinemaDbcontextSeeding.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Database\\Seed\\CinemaDbcontextSeeding.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Database\\Seed\\CinemaDbcontextSeeding.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Database\\Seed\\CinemaDbcontextSeeding.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Database\\Seed\\CinemaDbcontextSeeding.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAEwDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:14:30.862Z",
+              "WhenOpened": "2026-08-26T18:49:55.372Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateSeatCommandHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommandHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommandHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommandHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommandHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ServiceContainer.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\DI\\ServiceContainer.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\DI\\ServiceContainer.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\DI\\ServiceContainer.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\DI\\ServiceContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:14:30.22Z",
+              "WhenOpened": "2026-08-21T21:22:21.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DeleteSeatCommandHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommandHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommandHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommandHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABzAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BookingExprationService.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\BackgroundServices\\BookingExprationService.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\BackgroundServices\\BookingExprationService.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\BackgroundServices\\BookingExprationService.cs",
+              "RelativeToolTip": "Cinema.Application\\BackgroundServices\\BookingExprationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:13:43.894Z",
+              "WhenOpened": "2026-08-24T17:28:43.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DeleteSeatCommand.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommand.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommand.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommand.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:13:42.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateSeatCommandHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommandHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommandHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommandHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommandHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAACPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:09:40.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateSeatCommand.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommand.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommand.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommand.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:09:16.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetFoodByNameQueryHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\GetFoodByName\\GetFoodByNameQueryHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Queries\\GetFoodByName\\GetFoodByNameQueryHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\GetFoodByName\\GetFoodByNameQueryHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Queries\\GetFoodByName\\GetFoodByNameQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:03:27.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetFoodByNameQuery.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\GetFoodByName\\GetFoodByNameQuery.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Queries\\GetFoodByName\\GetFoodByNameQuery.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\GetFoodByName\\GetFoodByNameQuery.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Queries\\GetFoodByName\\GetFoodByNameQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T22:02:34.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetFoodByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\GetFoodById\\GetFoodByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Queries\\GetFoodById\\GetFoodByIdQueryHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\GetFoodById\\GetFoodByIdQueryHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Queries\\GetFoodById\\GetFoodByIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:44:21.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateFoodCommand.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Create\\CreateFoodCommand.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Commands\\Create\\CreateFoodCommand.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Create\\CreateFoodCommand.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Commands\\Create\\CreateFoodCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:27:39.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateFoodCommandHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Create\\CreateFoodCommandHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Commands\\Create\\CreateFoodCommandHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Create\\CreateFoodCommandHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Commands\\Create\\CreateFoodCommandHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:29:19.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UpdateFoodCommandHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Update\\UpdateFoodCommandHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Commands\\Update\\UpdateFoodCommandHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Update\\UpdateFoodCommandHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Commands\\Update\\UpdateFoodCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:28:33.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UpdateFoodCommand.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Update\\UpdateFoodCommand.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Commands\\Update\\UpdateFoodCommand.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Update\\UpdateFoodCommand.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Commands\\Update\\UpdateFoodCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:28:25.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DeleteFoodCommandHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Delete\\DeleteFoodCommandHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Commands\\Delete\\DeleteFoodCommandHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Delete\\DeleteFoodCommandHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Commands\\Delete\\DeleteFoodCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:36:50.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20260809183552_SecondTableUpdate.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260809183552_SecondTableUpdate.cs",
-              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260809183552_SecondTableUpdate.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260809183552_SecondTableUpdate.cs",
-              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260809183552_SecondTableUpdate.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:52:51.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20260821215239_AddQuanlityColumnForFood.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260821215239_AddQuanlityColumnForFood.cs",
-              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260821215239_AddQuanlityColumnForFood.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260821215239_AddQuanlityColumnForFood.cs",
-              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260821215239_AddQuanlityColumnForFood.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:52:45.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20260809174947_UpdateTable.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260809174947_UpdateTable.cs",
-              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260809174947_UpdateTable.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260809174947_UpdateTable.cs",
-              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260809174947_UpdateTable.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:49:30.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20260728155017_Initial.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
-              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
-              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:56:13.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GetFoodPagingQueryHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\Pagination\\GetFoodPagingQueryHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Queries\\Pagination\\GetFoodPagingQueryHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\Pagination\\GetFoodPagingQueryHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Queries\\Pagination\\GetFoodPagingQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:45:20.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GetFoodPagingQuery.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\Pagination\\GetFoodPagingQuery.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Queries\\Pagination\\GetFoodPagingQuery.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\Pagination\\GetFoodPagingQuery.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Queries\\Pagination\\GetFoodPagingQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:44:30.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "GetFoodByIdQuery.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\GetFoodById\\GetFoodByIdQuery.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Queries\\GetFoodById\\GetFoodByIdQuery.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Queries\\GetFoodById\\GetFoodByIdQuery.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Queries\\GetFoodById\\GetFoodByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:44:02.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GetTheaterByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Queries\\GetTheaterById\\GetTheaterByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Queries\\GetTheaterById\\GetTheaterByIdQueryHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Queries\\GetTheaterById\\GetTheaterByIdQueryHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Queries\\GetTheaterById\\GetTheaterByIdQueryHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAvwBMAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:39:45.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Food.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Food.cs",
-              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Food.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Food.cs",
-              "RelativeToolTip": "Cinema.Domain\\Enitities\\Food.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:31:09.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "GetTheaterPagingQueryHandler.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Queries\\Pagination\\GetTheaterPagingQueryHandler.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Queries\\Pagination\\GetTheaterPagingQueryHandler.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Queries\\Pagination\\GetTheaterPagingQueryHandler.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Queries\\Pagination\\GetTheaterPagingQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:39:47.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "GetTheaterPagingQuery.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Queries\\Pagination\\GetTheaterPagingQuery.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Queries\\Pagination\\GetTheaterPagingQuery.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Queries\\Pagination\\GetTheaterPagingQuery.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Queries\\Pagination\\GetTheaterPagingQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:39:43.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GetTheaterByIdQuery.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Queries\\GetTheaterById\\GetTheaterByIdQuery.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Queries\\GetTheaterById\\GetTheaterByIdQuery.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Queries\\GetTheaterById\\GetTheaterByIdQuery.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Queries\\GetTheaterById\\GetTheaterByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:39:40.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
               "Title": "CinemaDbcontextFactory.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Database\\CinemaDbcontextFactory.cs",
               "RelativeDocumentMoniker": "Cinema.Infrastructure\\Database\\CinemaDbcontextFactory.cs",
@@ -577,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 6,
               "Title": "CinemaDbcontext.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Database\\CinemaDbcontext.cs",
               "RelativeDocumentMoniker": "Cinema.Infrastructure\\Database\\CinemaDbcontext.cs",
@@ -590,7 +461,1013 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Program.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Program.cs",
+              "RelativeToolTip": "Cinema.Api\\Program.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAgwJ0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:13:53.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Showtime.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Showtime.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Showtime.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Showtime.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Showtime.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:29:13.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateShowtimeCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Commands\\Create\\CreateShowtimeCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Showtime\\Commands\\Create\\CreateShowtimeCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Commands\\Create\\CreateShowtimeCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Showtime\\Commands\\Create\\CreateShowtimeCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:30:54.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\AutoMappers\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\AutoMappers\\MappingProfile.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\AutoMappers\\MappingProfile.cs",
+              "RelativeToolTip": "Cinema.Application\\AutoMappers\\MappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T16:01:43.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateShowtimeCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Commands\\Update\\UpdateShowtimeCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Showtime\\Commands\\Update\\UpdateShowtimeCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Commands\\Update\\UpdateShowtimeCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Showtime\\Commands\\Update\\UpdateShowtimeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:48:50.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateShowtimeCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Commands\\Update\\UpdateShowtimeCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Showtime\\Commands\\Update\\UpdateShowtimeCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Commands\\Update\\UpdateShowtimeCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Showtime\\Commands\\Update\\UpdateShowtimeCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:48:45.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IShowtimeRepository.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Interfaces\\IShowtimeRepository.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Interfaces\\IShowtimeRepository.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Interfaces\\IShowtimeRepository.cs",
+              "RelativeToolTip": "Cinema.Application\\Interfaces\\IShowtimeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:48:40.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SeatController.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\SeatController.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Controllers\\SeatController.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\SeatController.cs",
+              "RelativeToolTip": "Cinema.Api\\Controllers\\SeatController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wBgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:31:46.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShowtimeController.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\ShowtimeController.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Controllers\\ShowtimeController.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\ShowtimeController.cs",
+              "RelativeToolTip": "Cinema.Api\\Controllers\\ShowtimeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:21:08.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateMovieCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Movie\\Commands\\Update\\UpdateMovieCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Movie\\Commands\\Update\\UpdateMovieCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Movie\\Commands\\Update\\UpdateMovieCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Movie\\Commands\\Update\\UpdateMovieCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwCUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:48:08.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateTheaterModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Theater\\UpdateTheaterModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Theater\\UpdateTheaterModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Theater\\UpdateTheaterModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Theater\\UpdateTheaterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:46:55.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateTheaterModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Theater\\CreateTheaterModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Theater\\CreateTheaterModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Theater\\CreateTheaterModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Theater\\CreateTheaterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:46:28.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateShowtimeModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Showtime\\UpdateShowtimeModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Showtime\\UpdateShowtimeModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Showtime\\UpdateShowtimeModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Showtime\\UpdateShowtimeModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:45:59.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateShowtimeModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Showtime\\CreateShowtimeModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Showtime\\CreateShowtimeModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Showtime\\CreateShowtimeModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Showtime\\CreateShowtimeModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:43:52.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateBookingSeatModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Seat\\UpdateBookingSeatModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Seat\\UpdateBookingSeatModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Seat\\UpdateBookingSeatModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Seat\\UpdateBookingSeatModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:43:03.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateMovieModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Movie\\UpdateMovieModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Movie\\UpdateMovieModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Movie\\UpdateMovieModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Movie\\UpdateMovieModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:42:00.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateBookingSeatModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Seat\\CreateBookingSeatModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Seat\\CreateBookingSeatModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Seat\\CreateBookingSeatModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Seat\\CreateBookingSeatModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:42:28.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Controllers\\MovieController.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Cinema.Api\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T20:55:46.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateGenreModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Genre\\UpdateGenreModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Genre\\UpdateGenreModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Genre\\UpdateGenreModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Genre\\UpdateGenreModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:41:35.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateGenreModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Genre\\CreateGenreModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Genre\\CreateGenreModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Genre\\CreateGenreModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Genre\\CreateGenreModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:41:00.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateBookingFoodModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\UpdateBookingFoodModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Food\\UpdateBookingFoodModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\UpdateBookingFoodModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Food\\UpdateBookingFoodModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:39:24.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "UpdateBookingModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Booking\\UpdateBookingModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Booking\\UpdateBookingModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Booking\\UpdateBookingModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Booking\\UpdateBookingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:35:43.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateMovieDto.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Movie\\CreateMovieDto.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Movie\\CreateMovieDto.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Movie\\CreateMovieDto.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Movie\\CreateMovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T16:02:03.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateFoodModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\UpdateFoodModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Food\\UpdateFoodModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\UpdateFoodModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Food\\UpdateFoodModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:36:01.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateBookingModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Booking\\CreateBookingModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Booking\\CreateBookingModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Booking\\CreateBookingModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Booking\\CreateBookingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:19:19.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Cinema.Api\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:34:29.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetSeatPagingQueryHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQueryHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQueryHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQueryHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:32:24.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateBookingFoodModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\CreateBookingFoodModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Food\\CreateBookingFoodModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\CreateBookingFoodModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Food\\CreateBookingFoodModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:33:43.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateSeatCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:33:40.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateFoodModel.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\CreateFoodModel.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Models\\Food\\CreateFoodModel.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\CreateFoodModel.cs",
+              "RelativeToolTip": "SeedWorks\\Models\\Food\\CreateFoodModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:30:16.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdateSeatCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Update\\UpdateSeatCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:33:39.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DeleteSeatCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:33:35.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeleteSeatCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Delete\\DeleteSeatCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:33:30.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateSeatCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:33:12.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateSeatCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Commands\\Create\\CreateSeatCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:33:01.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetSeatPagingQuery.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQuery.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQuery.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQuery.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Seat\\Queries\\Pagination\\GetSeatPagingQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:32:24.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UpdateTheaterCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Update\\UpdateTheaterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Commands\\Update\\UpdateTheaterCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Update\\UpdateTheaterCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Commands\\Update\\UpdateTheaterCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:29:19.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateTheaterCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Update\\UpdateTheaterCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Commands\\Update\\UpdateTheaterCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Update\\UpdateTheaterCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Commands\\Update\\UpdateTheaterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:29:09.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateTheaterCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Create\\CreateTheaterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Commands\\Create\\CreateTheaterCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Create\\CreateTheaterCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Commands\\Create\\CreateTheaterCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:28:42.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CreateTheaterCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Create\\CreateTheaterCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Commands\\Create\\CreateTheaterCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Create\\CreateTheaterCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Commands\\Create\\CreateTheaterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:28:35.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TheaterController.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\TheaterController.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Controllers\\TheaterController.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\TheaterController.cs",
+              "RelativeToolTip": "Cinema.Api\\Controllers\\TheaterController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:26:02.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Controllers\\FoodController.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "Cinema.Api\\Controllers\\FoodController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:24:43.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DeleteTheaterCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Delete\\DeleteTheaterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Commands\\Delete\\DeleteTheaterCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Delete\\DeleteTheaterCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Commands\\Delete\\DeleteTheaterCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:27:34.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DeleteTheaterCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Delete\\DeleteTheaterCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Theater\\Commands\\Delete\\DeleteTheaterCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Theater\\Commands\\Delete\\DeleteTheaterCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Theater\\Commands\\Delete\\DeleteTheaterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:27:19.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GetShowtimePagingQuery.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Queries\\Pagination\\GetShowtimePagingQuery.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Showtime\\Queries\\Pagination\\GetShowtimePagingQuery.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Showtime\\Queries\\Pagination\\GetShowtimePagingQuery.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Showtime\\Queries\\Pagination\\GetShowtimePagingQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T17:22:28.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ApiSuccessResult.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Reponse\\ApiSuccessResult.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Reponse\\ApiSuccessResult.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Reponse\\ApiSuccessResult.cs",
+              "RelativeToolTip": "SeedWorks\\Reponse\\ApiSuccessResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T15:48:30.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Constant\\Permission.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Constant\\Permission.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Constant\\Permission.cs",
+              "RelativeToolTip": "Cinema.Api\\Constant\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T21:39:23.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ApiResult.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Reponse\\ApiResult.cs",
+              "RelativeDocumentMoniker": "SeedWorks\\Reponse\\ApiResult.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Reponse\\ApiResult.cs",
+              "RelativeToolTip": "SeedWorks\\Reponse\\ApiResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T15:49:14.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GetGenrePagingQueryHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Genre\\Queries\\Pagination\\GetGenrePagingQueryHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Genre\\Queries\\Pagination\\GetGenrePagingQueryHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Genre\\Queries\\Pagination\\GetGenrePagingQueryHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Genre\\Queries\\Pagination\\GetGenrePagingQueryHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T17:06:54.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CreateMovieCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Movie\\Commands\\Create\\CreateMovieCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Movie\\Commands\\Create\\CreateMovieCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Movie\\Commands\\Create\\CreateMovieCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Movie\\Commands\\Create\\CreateMovieCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T21:43:15.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GetBookingPagingQueryHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Booking\\Queries\\Pagination\\GetBookingPagingQueryHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Booking\\Queries\\Pagination\\GetBookingPagingQueryHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Booking\\Queries\\Pagination\\GetBookingPagingQueryHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Booking\\Queries\\Pagination\\GetBookingPagingQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T15:40:34.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CreateMovieCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Movie\\Commands\\Create\\CreateMovieCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Movie\\Commands\\Create\\CreateMovieCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Movie\\Commands\\Create\\CreateMovieCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Movie\\Commands\\Create\\CreateMovieCommandHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T21:43:05.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CreateBookingCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Booking\\Commands\\Create\\CreateBookingCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Booking\\Commands\\Create\\CreateBookingCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Booking\\Commands\\Create\\CreateBookingCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Booking\\Commands\\Create\\CreateBookingCommandHandler.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T15:57:49.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Controllers\\GenreController.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "Cinema.Api\\Controllers\\GenreController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:22:35.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "GetGenrePagingQuery.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Genre\\Queries\\Pagination\\GetGenrePagingQuery.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Genre\\Queries\\Pagination\\GetGenrePagingQuery.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Genre\\Queries\\Pagination\\GetGenrePagingQuery.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Genre\\Queries\\Pagination\\GetGenrePagingQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T17:12:29.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GetBookingPagingQuery.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Booking\\Queries\\Pagination\\GetBookingPagingQuery.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Booking\\Queries\\Pagination\\GetBookingPagingQuery.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Booking\\Queries\\Pagination\\GetBookingPagingQuery.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Booking\\Queries\\Pagination\\GetBookingPagingQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T15:40:09.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Repositories\\GenreRepository.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Repositories\\GenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:35:50.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CreateGenreCommandHandler.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Genre\\Commands\\Create\\CreateGenreCommandHandler.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Genre\\Commands\\Create\\CreateGenreCommandHandler.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Genre\\Commands\\Create\\CreateGenreCommandHandler.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Genre\\Commands\\Create\\CreateGenreCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T17:00:21.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwF0AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T17:07:15.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PermissionAttribute.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Attribute\\PermissionAttribute.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Attribute\\PermissionAttribute.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Attribute\\PermissionAttribute.cs",
+              "RelativeToolTip": "Cinema.Api\\Attribute\\PermissionAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T21:40:04.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ISeatRepository.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Interfaces\\ISeatRepository.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Interfaces\\ISeatRepository.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Interfaces\\ISeatRepository.cs",
+              "RelativeToolTip": "Cinema.Application\\Interfaces\\ISeatRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:33:12.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "SeatRepository.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\SeatRepository.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Repositories\\SeatRepository.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\SeatRepository.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Repositories\\SeatRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:33:27.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Interfaces\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Interfaces\\IGenreRepository.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Interfaces\\IGenreRepository.cs",
+              "RelativeToolTip": "Cinema.Application\\Interfaces\\IGenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:34:49.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CreateGenreCommand.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Genre\\Commands\\Create\\CreateGenreCommand.cs",
+              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Genre\\Commands\\Create\\CreateGenreCommand.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Genre\\Commands\\Create\\CreateGenreCommand.cs",
+              "RelativeToolTip": "Cinema.Application\\Features\\Genre\\Commands\\Create\\CreateGenreCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T17:00:17.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ShowtimeSeat.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\ShowtimeSeat.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\ShowtimeSeat.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\ShowtimeSeat.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\ShowtimeSeat.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T16:30:25.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "MovieGenre.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\MovieGenre.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\MovieGenre.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\MovieGenre.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\MovieGenre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T21:46:53.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Services\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Cenima.IdentityApi\\Services\\ProfileService.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cenima.IdentityApi\\Services\\ProfileService.cs",
+              "RelativeToolTip": "Cenima.IdentityApi\\Services\\ProfileService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAlwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T00:52:39.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.AI\\Program.cs",
+              "RelativeDocumentMoniker": "Cinema.AI\\Program.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.AI\\Program.cs",
+              "RelativeToolTip": "Cinema.AI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T00:36:38.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "MovieGenreRepository.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\MovieGenreRepository.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Repositories\\MovieGenreRepository.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\MovieGenreRepository.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Repositories\\MovieGenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T21:46:38.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "BookingExpirationRepository.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\BookingExpirationRepository.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Repositories\\BookingExpirationRepository.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\BookingExpirationRepository.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Repositories\\BookingExpirationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T21:22:46.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Cinema.Api\\appsettings.json",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\appsettings.json",
+              "RelativeToolTip": "Cinema.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-22T20:59:12.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Cinema.Api\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Cinema.Api\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T21:00:56.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IChatBot.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.AI\\Interfaces\\IChatBot.cs",
+              "RelativeDocumentMoniker": "Cinema.AI\\Interfaces\\IChatBot.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.AI\\Interfaces\\IChatBot.cs",
+              "RelativeToolTip": "Cinema.AI\\Interfaces\\IChatBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T00:32:22.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Chatbot.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.AI\\Services\\Chatbot.cs",
+              "RelativeDocumentMoniker": "Cinema.AI\\Services\\Chatbot.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.AI\\Services\\Chatbot.cs",
+              "RelativeToolTip": "Cinema.AI\\Services\\Chatbot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T00:32:50.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20260809183552_SecondTableUpdate.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260809183552_SecondTableUpdate.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260809183552_SecondTableUpdate.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260809183552_SecondTableUpdate.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260809183552_SecondTableUpdate.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:52:51.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20260821215239_AddQuanlityColumnForFood.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260821215239_AddQuanlityColumnForFood.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260821215239_AddQuanlityColumnForFood.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260821215239_AddQuanlityColumnForFood.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260821215239_AddQuanlityColumnForFood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:52:45.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20260809174947_UpdateTable.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260809174947_UpdateTable.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260809174947_UpdateTable.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260809174947_UpdateTable.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260809174947_UpdateTable.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:49:30.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20260728155017_Initial.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
+              "RelativeDocumentMoniker": "Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
+              "RelativeToolTip": "Cinema.Infrastructure\\Migrations\\20260728155017_Initial.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:56:13.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Food.cs",
+              "RelativeDocumentMoniker": "Cinema.Domain\\Enitities\\Food.cs",
+              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Enitities\\Food.cs",
+              "RelativeToolTip": "Cinema.Domain\\Enitities\\Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T21:31:09.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
               "Title": "FoodRepository.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\Repositories\\FoodRepository.cs",
               "RelativeDocumentMoniker": "Cinema.Infrastructure\\Repositories\\FoodRepository.cs",
@@ -598,107 +1475,7 @@
               "RelativeToolTip": "Cinema.Infrastructure\\Repositories\\FoodRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:38:11.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DeleteFoodCommand.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Delete\\DeleteFoodCommand.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\Features\\Food\\Commands\\Delete\\DeleteFoodCommand.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Food\\Commands\\Delete\\DeleteFoodCommand.cs",
-              "RelativeToolTip": "Cinema.Application\\Features\\Food\\Commands\\Delete\\DeleteFoodCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:37:40.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "UpdateFoodModel.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\UpdateFoodModel.cs",
-              "RelativeDocumentMoniker": "SeedWorks\\Models\\Food\\UpdateFoodModel.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\UpdateFoodModel.cs",
-              "RelativeToolTip": "SeedWorks\\Models\\Food\\UpdateFoodModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:36:01.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CreateBookingFoodModel.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\CreateBookingFoodModel.cs",
-              "RelativeDocumentMoniker": "SeedWorks\\Models\\Food\\CreateBookingFoodModel.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\CreateBookingFoodModel.cs",
-              "RelativeToolTip": "SeedWorks\\Models\\Food\\CreateBookingFoodModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:33:43.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CreateFoodModel.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\CreateFoodModel.cs",
-              "RelativeDocumentMoniker": "SeedWorks\\Models\\Food\\CreateFoodModel.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Models\\Food\\CreateFoodModel.cs",
-              "RelativeToolTip": "SeedWorks\\Models\\Food\\CreateFoodModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:30:16.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ServiceContainer.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\DI\\ServiceContainer.cs",
-              "RelativeDocumentMoniker": "Cinema.Infrastructure\\DI\\ServiceContainer.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Infrastructure\\DI\\ServiceContainer.cs",
-              "RelativeToolTip": "Cinema.Infrastructure\\DI\\ServiceContainer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:22:21.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ServiceContainer.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\DI\\ServiceContainer.cs",
-              "RelativeDocumentMoniker": "Cinema.Application\\DI\\ServiceContainer.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\DI\\ServiceContainer.cs",
-              "RelativeToolTip": "Cinema.Application\\DI\\ServiceContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:16:41.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Cinema.Api\\Program.cs",
-              "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Api\\Program.cs",
-              "RelativeToolTip": "Cinema.Api\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T21:13:53.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T21:38:11.9Z"
             }
           ]
         }

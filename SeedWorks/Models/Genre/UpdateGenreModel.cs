@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Genre
 {
-    public record UpdateGenreModel(
-        string Name
-        );
-    
-    
+    public record UpdateGenreModel
+    {
+        public string Name { get; set; }
+    }
+
+
 }

@@ -1,6 +1,13 @@
-﻿using Cinema.Application.Interfaces;
+﻿using Cinema.Application.BackgroundServices;
+using Cinema.Application.Interfaces;
+using Cinema.Infrastructure.Database;
+using Cinema.Infrastructure.Database.Seed;
 using Cinema.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +18,9 @@ namespace Cinema.Infrastructure.DI
 {
     public static  class ServiceContainer 
     {
-        public static IServiceCollection AddInfrastructureServie(this IServiceCollection services)
+        public static IServiceCollection AddInfrastructureServie(this IServiceCollection services , IConfiguration config)
         {
-            services.AddScoped<IBookingExpirationService, IBookingExpirationService>();
+            services.AddScoped<IBookingExpirationService, BookingExpirationRepository>();
             services.AddScoped<IBookingFoodRepository, BookingFoodRepository>();
             services.AddScoped<IBookingRepository, BookingRepository>();
             services.AddScoped<IBookingSeatRepository, BookingSeatRepository>();
@@ -26,9 +33,23 @@ namespace Cinema.Infrastructure.DI
             services.AddScoped<IShowtimeRepository,ShowtimeRepository>();
             services.AddScoped<IShowtimeSeatRepository,ShowtimeSeatRepository>();
             services.AddScoped<ITheaterRepository,TheaterRepository>();
-
-
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddDbContext<CinemaDbcontext>(options =>
+            {
+                options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+            });
             return services;
+        }
+        public async static Task<IApplicationBuilder> AddInfrastructurePolicies(this IApplicationBuilder app, ILogger logger)
+        {
+            using(var scope = app.ApplicationServices.CreateScope())
+            {
+                var service = scope.ServiceProvider;
+                var dbcontext = service.GetRequiredService<CinemaDbcontext>();
+                    await CinemaDbcontextSeeding.SeedAsync(dbcontext , 5);
+                logger.LogInformation("completed seeding cinemaDbcontext");
+            }
+            return app; 
         }
     }
 }

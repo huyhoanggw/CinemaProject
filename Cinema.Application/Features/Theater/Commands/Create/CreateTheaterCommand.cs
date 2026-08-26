@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Theater.Commands.Create
 {
-    public class CreateFoodCommand : IRequest<ApiResult<CreateTheaterModel>>
+    public class CreateTheaterCommand : IRequest<ApiResult<CreateTheaterModel>>
     {
         public string Name { get; set; }
     }

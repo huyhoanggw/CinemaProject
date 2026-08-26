@@ -11,31 +11,39 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.BackgroundServices
 {
-    public class BookingExprationService(IServiceScopeFactory _scopeFactory , ILogger<BookingExprationService> logger) : BackgroundService
+    public class BookingExprationService(IServiceScopeFactory _scopeFactory, ILogger<BookingExprationService> logger) : BackgroundService
     {
-        protected async  override Task ExecuteAsync(CancellationToken stoppingToken)
+        protected async override Task ExecuteAsync(CancellationToken stoppingToken)
         {
 
-            try
+            while (!stoppingToken.IsCancellationRequested)
             {
-                using var scope = _scopeFactory.CreateScope();
+                try
+                {
+                    using var scope = _scopeFactory.CreateScope();
 
-                var expirationService =
-                    scope.ServiceProvider
-                        .GetRequiredService<IBookingExpirationService>();
+                    var expirationService =
+                        scope.ServiceProvider
+                            .GetRequiredService<IBookingExpirationService>();
 
-                await expirationService.ExpireAsync(
+                    await expirationService.ExpireAsync(stoppingToken);
+                }
+                catch (OperationCanceledException)
+                    when (stoppingToken.IsCancellationRequested)
+                {
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    logger.LogError(
+                        ex,
+                        "Error while expiring bookings");
+                }
+
+                await Task.Delay(
+                    TimeSpan.FromSeconds(20),
                     stoppingToken);
             }
-            catch (Exception ex)
-            {
-                logger.LogError(
-                    ex,
-                    "Error while expiring bookings");
-            }
-            await Task.Delay(
-              TimeSpan.FromSeconds(20),
-              stoppingToken);
-            }
+        }
     }
 }

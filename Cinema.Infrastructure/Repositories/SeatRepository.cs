@@ -24,7 +24,7 @@ namespace Cinema.Infrastructure.Repositories
 
         public async Task<IEnumerable<Seat>> GetSeatsByIds(List<Guid> Ids)
         {
-            return await  _context.Set<Seat>().Where(x => Ids.Contains(x.Id)).ToListAsync();
+            return await  _context.Set<Seat>().Where(x => Ids.Equals(x.Id)).ToListAsync();
         }
     }
 }

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Theater
 {
-    public record CreateTheaterModel(
-            string Name
-        );
-    
+    public record CreateTheaterModel
+    {
+       public string Name { get; set; }
+ }
+
 }

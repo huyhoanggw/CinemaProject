@@ -7,17 +7,19 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Booking
 {
-    public record CreateBookingModel(
-          string UserId ,
-          Guid ShowtimeId ,
-         Cinema.Domain.Enitities.Showtime Showtime ,
-          string BookingCode ,
-          decimal TotalPrice ,
-          BookingStatus Status ,
-          ICollection<BookingSeat> BookingSeats ,
-          ICollection<BookingFood> BookingFoods ,
-          Payment? Payment 
-        );
-    
+    public record CreateBookingModel
+    {
+       public  string UserId{get; set;}
+         public Guid ShowtimeId {get; set;}
+       public Cinema.Domain.Enitities.Showtime Showtime{get; set;}
+       public string BookingCode{get; set;}
+       public decimal TotalPrice{get; set;}
+       public BookingStatus Status {get; set;}
+      public ICollection<BookingSeat> BookingSeats{get; set;}
+      public ICollection<BookingFood> BookingFoods {get; set;}
+      public Payment? Payment { get; set; }
+    }
+         
+            
     
 }

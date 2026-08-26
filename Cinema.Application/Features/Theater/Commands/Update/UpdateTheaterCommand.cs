@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Theater.Commands.Update
 {
-    public class UpdateFoodCommand : IRequest<ApiResult< UpdateTheaterModel>>
+    public class UpdateTheaterCommand : IRequest<ApiResult< UpdateTheaterModel>>
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

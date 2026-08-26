@@ -17,7 +17,7 @@ namespace SeedWorks.Reponse
         {
             
         }
-        public ApiSuccessResult(T obj , string message) : base(true , message) 
+        public ApiSuccessResult(T obj , string message) : base(true,obj , message) 
         {
             
         }

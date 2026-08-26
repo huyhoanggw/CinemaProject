@@ -12,10 +12,10 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Booking.Queries.Pagination
 {
-    public class GetGenrePagingQueryHandler(IBookingRepository bookingRepository , ILogger<GetGenrePagingQueryHandler> logger) 
-        : IRequestHandler<GetGenrePagingQuery, ApiResult<PagedResult<Domain.Enitities.Booking>>>
+    public class GetBookingPagingQueryHandler(IBookingRepository bookingRepository , ILogger<GetBookingPagingQueryHandler> logger) 
+        : IRequestHandler<GetBookingPagingQuery, ApiResult<PagedResult<Domain.Enitities.Booking>>>
     {
-        public async Task<ApiResult<PagedResult<Domain.Enitities.Booking>>> Handle(GetGenrePagingQuery request, CancellationToken cancellationToken)
+        public async Task<ApiResult<PagedResult<Domain.Enitities.Booking>>> Handle(GetBookingPagingQuery request, CancellationToken cancellationToken)
         {
             logger.LogInformation("begin : GetBookingPagingQueryHandler");
             var paging = await bookingRepository.GetPagingAsync(request.PageNumber , request.PageSize);

@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 namespace SeedWorks.Models.Food
 {
     public record CreateBookingFoodModel
-        (
-             Guid FoodId  ,
-             int Quanlity
-        );
-    
+    {
+        public Guid FoodId { get; set; }
+         public int Quanlity { get; set; }
+     } 
+      
+           
     
 }

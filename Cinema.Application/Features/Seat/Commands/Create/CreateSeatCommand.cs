@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Seat.Commands.Create
 {
-    public class CreateFoodCommand : IRequest<ApiResult<Domain.Enitities.Seat>>
+    public class CreateSeatCommand : IRequest<ApiResult<Domain.Enitities.Seat>>
     {
         public string Row { get; set; }
         public int Number {  get; set; }

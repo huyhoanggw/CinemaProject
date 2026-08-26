@@ -1,4 +1,4 @@
-namespace Cenima.Api
+namespace Cinema.AI
 {
     public class WeatherForecast
     {

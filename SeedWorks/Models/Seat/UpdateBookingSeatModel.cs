@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Seat
 {
-    public record UpdateBookingSeatModel(
-              ShowtimeSeat ShowtimeSeat, 
-              decimal Price 
-        );
-   }
+    public record UpdateBookingSeatModel
+    {
+         public ShowtimeSeat ShowtimeSeat { get; set; }
+              public decimal Price { get; set; }
+            }
+              
+          }

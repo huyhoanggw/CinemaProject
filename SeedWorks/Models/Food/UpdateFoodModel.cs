@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace SeedWorks.Models.Food
 {
-    public record UpdateFoodModel(
-         string Name,
-          decimal Price,
-          int Quanlity
-        );
-   }
+    public record UpdateFoodModel
+    {
+      public  string Name{get;set;}
+       public decimal Price{get;set;}
+       public int Quanlity {get;set;}
+     }
+         
+}

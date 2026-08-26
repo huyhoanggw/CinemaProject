@@ -1,5 +1,7 @@
 
 using Cinema.Api.Middleware;
+using Cinema.Application.DI;
+using Cinema.Infrastructure.DI;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
 
@@ -17,7 +19,8 @@ namespace Cinema.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
 
-
+            builder.Services.AddApplicationService();
+            builder.Services.AddInfrastructureServie(builder.Configuration);
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
            {
                option.Authority = "https://localhost:5004";
@@ -152,7 +155,7 @@ namespace Cinema.Api
                     );
             }
 
-
+            app.AddInfrastructurePolicies(app.Logger);
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseMiddleware<GlobalExceptionMiddleware>();
