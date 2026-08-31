@@ -172,6 +172,19 @@ namespace Cinema.IdentityApi.PermissionModule.Seeder
                      Name = "Delete Genre",
                      Description = "Can delete genres"
                 },
+                  // booking
+                  new Permission
+                  {
+                      Code = PermissionCodes.BookingCreate,
+                      Name = "Create Booking",
+                      Description =" Can create booking"
+                  },
+                  new Permission
+                  {
+                      Code = PermissionCodes.BookingCancel,
+                      Name = "Cancel Booking",
+                      Description =" Can Cancel booking"
+                  }
             };
         }
     }

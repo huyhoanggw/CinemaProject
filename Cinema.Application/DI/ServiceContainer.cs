@@ -9,6 +9,8 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Cinema.Application.Features.Services.PaymentService;
+using Cinema.Application.Features.Services.Payment;
 
 namespace Cinema.Application.DI
 {
@@ -19,6 +21,7 @@ namespace Cinema.Application.DI
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(ServiceContainer).Assembly));
             services.AddAutoMapper(typeof(MappingProfile));
             services.AddHostedService<BookingExprationService>();
+            services.AddScoped<IPaymentService, PaymentService>();
             services.AddHttpContextAccessor();
 
             return services;

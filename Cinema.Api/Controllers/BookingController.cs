@@ -9,6 +9,7 @@ using Cinema.Domain.Enitities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using SeedWorks.ApiReponse;
 
 namespace Cinema.Api.Controllers
@@ -19,9 +20,9 @@ namespace Cinema.Api.Controllers
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetBookings()
+        public async Task<IActionResult> GetBookings([FromQuery] int pageSize, int pageNumber)
         {
-            var result = await mediator.Send(new GetBookingPagingQuery());
+            var result = await mediator.Send(new GetBookingPagingQuery() { PageNumber = pageNumber , PageSize = pageSize});
             return Ok(result);
                 
         }

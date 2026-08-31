@@ -2,6 +2,8 @@
 using Cinema.Application.Interfaces;
 using Cinema.Infrastructure.Database;
 using Cinema.Infrastructure.Database.Seed;
+using Cinema.Infrastructure.Helpers.PaymentGateway;
+using Cinema.Infrastructure.Helpers.Vnpay;
 using Cinema.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -38,6 +40,9 @@ namespace Cinema.Infrastructure.DI
             {
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
+            services.Configure<VnpayOptions>(
+            config.GetSection("VnpayOptions"));
+            services.AddScoped<IPaymentGateway, VnpayPaymentGateway>();
             return services;
         }
         public async static Task<IApplicationBuilder> AddInfrastructurePolicies(this IApplicationBuilder app, ILogger logger)

@@ -39,10 +39,9 @@ namespace Cinema.Domain.Enitities
 
     public enum PaymentMethod
     {
-        Cash,
         VnPay,
         Momo,
-        ZaloPay,
-        Stripe
+        ZaloPay
+        
     }
 }

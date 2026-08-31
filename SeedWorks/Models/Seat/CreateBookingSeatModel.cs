@@ -8,9 +8,7 @@ namespace SeedWorks.Models.Seat
 {
     public record CreateBookingSeatModel
     {
-    public   Guid showtimeSeatId {  get; set; }
-
-
+         public Guid SeatId {  get; set; }
 
  }
 

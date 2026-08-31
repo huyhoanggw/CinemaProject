@@ -14,6 +14,12 @@ namespace Cinema.Infrastructure.Repositories
 {
     public class BaseRepository<T>(CinemaDbcontext _context , ILogger<BaseRepository<T>> _logger) : IBaseRepository<T> where T : class
     {
+        public async Task<IEnumerable<T>> CreateRangeAsync(List<T> entities)
+        {
+             await _context.AddRangeAsync(entities);
+            return entities;
+        }
+
         public async Task<T> CreateAsync(T entity)
         {
             

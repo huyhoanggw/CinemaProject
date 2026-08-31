@@ -36,7 +36,7 @@ namespace Cinema.Infrastructure.Database.Seed
                     }
                     if (!dbcontext.Set<Theater>().Any())
                     {
-                        dbcontext.Set<Theater>().AddRange(await SeedTheaters());
+                        dbcontext.Set<Theater>().AddRange(await SeedTheaters(dbcontext));
                         await dbcontext.SaveChangesAsync();
                     }
                    
@@ -72,8 +72,9 @@ namespace Cinema.Infrastructure.Database.Seed
             return showtimes;
         }
 
-        private static async Task<List<Theater>> SeedTheaters()
+        private static async Task<List<Theater>> SeedTheaters(CinemaDbcontext _context)
         {
+            var seats = await _context.Set<Seat>().ToListAsync(); 
             var theaters = new List<Theater>();
             var chars = new List<string>()
             {
@@ -90,6 +91,7 @@ namespace Cinema.Infrastructure.Database.Seed
                     {
                         Id = Guid.NewGuid(),
                         Name = $"{c}{i}",
+                        Seats = seats,
                         CreateAt = DateTime.UtcNow
                     });
 

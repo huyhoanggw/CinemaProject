@@ -19,6 +19,7 @@ namespace Cinema.Domain.Enitities
         public PaymentStatus Status { get; set; }
 
         public string? TransactionId { get; set; }
+        public string? PaymentUrl { get; set; }
 
         public DateTime? PaidAt { get; set; }
     }

@@ -20,9 +20,9 @@ namespace Cinema.Api.Controllers
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetShowtimes()
+        public async Task<IActionResult> GetShowtimes([FromQuery] int PageNumber , int Pagesize)
         {
-            var result = await mediator.Send(new GetTheaterPagingQuery());
+            var result = await mediator.Send(new GetTheaterPagingQuery() { PageSize = Pagesize , PageNumber = PageNumber});
             return Ok(result);
                 
         }

@@ -9,10 +9,10 @@ namespace SeedWorks.Models.Showtime
 {
     public record CreateShowtimeModel
     {
-        public Cinema.Domain.Enitities.Movie Movie{get;set;}
+        public Guid MovieId{get;set;}
 
 
-      public Cinema.Domain.Enitities.Theater Theater{get;set;}
+      public Guid TheaterId{get;set;}
       public DateTime StartTime {get;set;}
 
          public DateTime EndTime{get;set;}

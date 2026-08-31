@@ -26,5 +26,6 @@ namespace Cinema.Infrastructure.Repositories
         {
             return await  _context.Set<Seat>().Where(x => Ids.Equals(x.Id)).ToListAsync();
         }
-    }
+
+          }
 }

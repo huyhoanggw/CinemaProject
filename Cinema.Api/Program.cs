@@ -129,8 +129,11 @@ namespace Cinema.Api
         "theater.create",
         "theater.delete",
         "theater.read",
-        "theater.update"
-                };
+        "theater.update",
+
+        "booking.create",
+        "booking.cancel",
+                       };
 
                 foreach(var permission in permissions)
                 {

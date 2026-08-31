@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Cinema.Application.Interfaces;
+using Cinema.Domain.Enitities;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using SeedWorks.ApiReponse;
@@ -24,9 +25,9 @@ namespace Cinema.Application.Features.Showtime.Commands.Create
             
             if (movie is null) return new ApiErrorResult<CreateShowtimeModel>("Movie Id not found");
 
-            var theater = await theaterRepository.FindByIdAsync(request.TheaterId);
+            var theater = await theaterRepository.FindByIdWithSeatsAsync(request.TheaterId);
             if(theater is null ) return new ApiErrorResult<CreateShowtimeModel>("Theater Id not found");
-            var showtime = new Cinema.Domain.Enitities.Showtime()
+             var showtime = new Cinema.Domain.Enitities.Showtime()
             {
                 Id = Guid.NewGuid(),
                 StartTime = request.StartTime,
@@ -39,7 +40,21 @@ namespace Cinema.Application.Features.Showtime.Commands.Create
                 Status = Domain.Enitities.ShowtimeStatus.Open
 
             };
+            var showtimeseats = new List<ShowtimeSeat>();
+            foreach(var item in theater.Seats)
+            {
+                showtimeseats.Add(new ShowtimeSeat() {
+                    Id = Guid.NewGuid(),
+                    ShowtimeId = showtime.Id,
+                    SeatId = item.Id,
+                    Status = ShowtimeSeatStatus.Available,
+                    Price = showtime.BasePrice
+                });
+
+            }
+            showtime.ShowtimeSeats = showtimeseats;
             await showtimeRepository.CreateAsync(showtime);
+            await showtimeSeatRepository.CreateRangeAsync(showtimeseats);
             var result = await unitOfWork.SaveChangeAsync();
             var showtimeTomapper = mapper.Map<CreateShowtimeModel>(showtime);
             logger.LogInformation("end : CreateShowtimeCommandHandler");

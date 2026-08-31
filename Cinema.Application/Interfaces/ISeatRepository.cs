@@ -10,5 +10,5 @@ namespace Cinema.Application.Interfaces
     public interface ISeatRepository : IBaseRepository<Seat>
     {
         public Task<IEnumerable<Seat>> GetSeatsByIds(List<Guid> Ids);
-    }
+           }
 }

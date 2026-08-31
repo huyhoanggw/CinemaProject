@@ -11,5 +11,6 @@ namespace Cinema.Application.Interfaces
     {
         //public Task<Theater> GetTheaterByIdAndShowtimeId(Guid theaterId, Guid showtimeId);
         public Task<Theater> GetTheaterByName(string name);
+        Task<Theater?> FindByIdWithSeatsAsync(Guid id);
     }
 }

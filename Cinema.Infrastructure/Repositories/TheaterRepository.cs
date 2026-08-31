@@ -22,6 +22,11 @@ namespace Cinema.Infrastructure.Repositories
             _logger = logger;
         }
 
+        public async Task<Theater?> FindByIdWithSeatsAsync(Guid id)
+        {
+            return await _context.Set<Theater>().Where(x => x.Id == id).Include(x => x.Seats).FirstOrDefaultAsync();
+        }
+
         public async Task<Theater> GetTheaterByName(string name)
         {
             return await _context.Set<Theater>().Where(x => x.Name.Equals(name)).FirstOrDefaultAsync();

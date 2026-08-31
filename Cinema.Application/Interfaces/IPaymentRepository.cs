@@ -9,5 +9,6 @@ namespace Cinema.Application.Interfaces
 {
     public interface IPaymentRepository : IBaseRepository<Payment>
     {
+        public Task<Payment> GetByBookingCode(string bookingCode);
     }
 }

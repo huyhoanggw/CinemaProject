@@ -12,6 +12,7 @@ namespace Cinema.Application.Interfaces
     public interface IBaseRepository<T> where T : class
     {
         Task<T> CreateAsync(T entity);
+        Task<IEnumerable<T>> CreateRangeAsync(List<T> entity);
         Task UpdateAsync(T entity);
         Task<bool> DeleteAsync(Guid Id);
         Task<T?> FindByIdAsync(Guid Id);

@@ -20,9 +20,9 @@ namespace Cinema.Api.Controllers
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetFoods()
+        public async Task<IActionResult> GetFoods([FromQuery] int PageSize , int pageNumber)
         {
-            var result = await mediator.Send(new GetFoodPagingQuery());
+            var result = await mediator.Send(new GetFoodPagingQuery() { PageSize = PageSize , PageNumber = pageNumber});
             return Ok(result);
                 
         }

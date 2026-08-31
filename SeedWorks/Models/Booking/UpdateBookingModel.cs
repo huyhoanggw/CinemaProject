@@ -17,7 +17,7 @@ namespace SeedWorks.Models.Booking
          public BookingStatus Status{get;set;}
          public ICollection<BookingSeat> BookingSeats{get;set;}
          public ICollection<BookingFood> BookingFoods{get;set;}
-         public Payment? Payment { get; set; }
+         public Cinema.Domain.Enitities.Payment?  Payment { get; set; }
         }
         
 

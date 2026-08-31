@@ -31,5 +31,8 @@
         public const string GenreUpdate = "genre.update";
         public const string GenreDelete = "genre.delete";
         public const string GenreRead = "genre.read";
+
+        public const string BookingCreate = "booking.create";
+        public const string BookingCancel = "booking.cancel";
     }
 }

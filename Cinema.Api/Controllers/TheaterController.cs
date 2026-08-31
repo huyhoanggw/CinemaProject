@@ -15,15 +15,15 @@ using SeedWorks.ApiReponse;
 
 namespace Cinema.Api.Controllers
 {
-    [Authorize]    
-    
-    public class TheaterController(IMediator mediator , ILogger<TheaterController> logger) : BaseController
+    [Authorize]
+
+    public class TheaterController(IMediator mediator, ILogger<TheaterController> logger) : BaseController
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetTheaters()
+        public async Task<IActionResult> GetTheaters([FromQuery] int pageSize , int pageNumber)
         {
-            var result = await mediator.Send(new GetTheaterPagingQuery());
+            var result = await mediator.Send(new GetTheaterPagingQuery() { PageNumber = pageNumber , PageSize = pageSize});
             return Ok(result);
                 
         }

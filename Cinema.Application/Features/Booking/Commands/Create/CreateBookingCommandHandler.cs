@@ -37,7 +37,7 @@ namespace Cinema.Application.Features.Booking.Commands.Create
             // Add booking foods + calculate price
             // Create booking
             // SaveChanges
-            var showTimeSeatIds =await showtimeSeatRepository.GetByShowtimeAndSeatIdsAsync(request.ShowtimeId,request.BookingSeats.Select(x => x.showtimeSeatId).ToList());
+            var showTimeSeatIds =await showtimeSeatRepository.GetByShowtimeAndSeatIdsAsync(request.ShowtimeId,request.BookingSeats.Select(x => x.SeatId).ToList());
             var userId = httpcontext.HttpContext.User?.FindFirst("uid")?.Value ?? httpcontext.HttpContext.User?.FindFirst("sub")?.Value
                 ?? httpcontext.HttpContext.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (string.IsNullOrEmpty(userId))
@@ -50,7 +50,7 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                 return new ApiErrorResult<CreateBookingModel>(
                     "Showtime not found");
             }
-            if (showTimeSeatIds.Count != request.BookingSeats.Select(x => x.showtimeSeatId).Distinct().Count())
+            if (showTimeSeatIds.Count != request.BookingSeats.Select(x => x.SeatId).Distinct().Count())
             {
                 return new ApiErrorResult<CreateBookingModel>("Seat not found");
             }
@@ -59,7 +59,7 @@ namespace Cinema.Application.Features.Booking.Commands.Create
             {
                 Id = Guid.NewGuid(),
                 UserId = userId!,
-                BookingCode = $"BK{DateTime.UtcNow:yyMMdd}-{Guid.NewGuid():N[..6]}".ToUpper(),
+                BookingCode = $"BK{DateTime.UtcNow:yyMMdd}-{Guid.NewGuid().ToString("N").Substring(0, 6)}".ToUpper(),
                 Showtime = showtime,
                 ShowtimeId = request.ShowtimeId,
                 CreateAt = DateTime.UtcNow,
@@ -70,17 +70,21 @@ namespace Cinema.Application.Features.Booking.Commands.Create
             {
                 return new ApiErrorResult<CreateBookingModel>("One or more seats are not available");
             }
-            foreach( var bookingseat in showTimeSeatIds)
+            foreach( var showtimeseat in showTimeSeatIds)
             {
-                bookingseat.Status = ShowtimeSeatStatus.Hold;
+                showtimeseat.Status = ShowtimeSeatStatus.Hold;
+                showtimeseat.ReservedBy = userId;
+                showtimeseat.ReservedAt = DateTime.UtcNow;
+                showtimeseat.ReservedUntil = DateTime.UtcNow.AddMinutes(10);
+                showtimeseat.UpdateAt = DateTime.UtcNow;
                 booking.BookingSeats.Add(new BookingSeat()
                 {
                     BookingId = booking.Id,
-                    ShowtimeSeatId = bookingseat.Id,
-                    Price = bookingseat.Price
+                    ShowtimeSeatId = showtimeseat.Id,
+                    Price = showtimeseat.Price
                     
                 });
-                booking.TotalPrice += bookingseat.Price;
+                booking.TotalPrice += showtimeseat.Price;
             }
             var Foods = await FoodRepository.getFoodByIds(request.BookingFoods.Select(x => x.FoodId).ToList());
                 foreach (var food in Foods)
@@ -95,6 +99,7 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                     });
                 booking.TotalPrice += food.Price * requestFood.Quanlity;
             }
+               
             try
             {
                 await unitOfWork.BeginTransaction(cancellationToken);

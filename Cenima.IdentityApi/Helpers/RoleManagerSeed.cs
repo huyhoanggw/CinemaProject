@@ -18,6 +18,10 @@ namespace Cinema.IdentityApi.Helpers
             {
                 await roleManager.CreateAsync(new IdentityRole("Manager"));
             }
+            if (!await roleManager.RoleExistsAsync("User"))
+            {
+                await roleManager.CreateAsync(new IdentityRole("User"));
+            }
             
         }
     }
