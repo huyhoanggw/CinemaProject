@@ -90,6 +90,7 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                 booking.TotalPrice += showtimeseat.Price;
             }
             var Foods = await FoodRepository.getFoodByIds(request.BookingFoods.Select(x => x.FoodId).ToList());
+            if (Foods is null) return new ApiErrorResult<CreateBookingModel>("Food Id not found");
                 foreach (var food in Foods)
             {
                 var requestFood = request.BookingFoods.First(x => x.FoodId == food.Id);
