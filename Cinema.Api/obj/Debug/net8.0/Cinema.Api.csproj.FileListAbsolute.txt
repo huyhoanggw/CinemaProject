@@ -114,3 +114,12 @@ D:\asp\CinemaProjectSolution\Cinema.Api\obj\Debug\net8.0\Cinema.Api.pdb
 D:\asp\CinemaProjectSolution\Cinema.Api\obj\Debug\net8.0\Cinema.Api.genruntimeconfig.cache
 D:\asp\CinemaProjectSolution\Cinema.Api\obj\Debug\net8.0\ref\Cinema.Api.dll
 D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Bogus.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Microsoft.AspNet.SignalR.Core.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Microsoft.AspNet.SignalR.Redis.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Microsoft.Owin.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Owin.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\StackExchange.Redis.StrongName.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Cinema.SignalR.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Cinema.SignalR.pdb

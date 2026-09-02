@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Cinema.Application.Features.Services.PaymentService;
 using Cinema.Application.Features.Services.Payment;
+using Cinema.Application.Interfaces.Hubs;
 
 namespace Cinema.Application.DI
 {
@@ -22,7 +23,7 @@ namespace Cinema.Application.DI
             services.AddAutoMapper(typeof(MappingProfile));
             services.AddHostedService<BookingExprationService>();
             services.AddScoped<IPaymentService, PaymentService>();
-            services.AddHttpContextAccessor();
+           services.AddHttpContextAccessor();
 
             return services;
         }

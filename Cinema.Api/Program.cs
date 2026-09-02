@@ -1,7 +1,10 @@
 
 using Cinema.Api.Middleware;
 using Cinema.Application.DI;
+using Cinema.Application.Interfaces.Hubs;
 using Cinema.Infrastructure.DI;
+using Cinema.SignalR.DI;
+using Cinema.SignalR.Hubs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
 
@@ -14,14 +17,14 @@ namespace Cinema.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services.AddSignalR();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-
+            builder.Services.AddSignalRService();
             builder.Services.AddApplicationService();
             builder.Services.AddInfrastructureServie(builder.Configuration);
-            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
+             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
            {
                option.Authority = "https://localhost:5004";
                option.RequireHttpsMetadata = true;
@@ -142,6 +145,20 @@ namespace Cinema.Api
                         policy.RequireClaim("permission", permission);
                     });
                 }
+                //var roles = new[]
+                //{
+                //"Admin",
+                //"Manager",
+                //"Staff",
+                //"User"
+                //};
+                //foreach(var role in roles)
+                //{
+                //    options.AddPolicy(role, policy =>
+                //    {
+                //        policy.RequireRole(role);
+                //    });
+                //}
             });
             var app = builder.Build();
 
@@ -166,7 +183,7 @@ namespace Cinema.Api
 
 
             app.MapControllers();
-
+            app.MapHub<SeatHub>("/hubs/seat");
             app.Run();
         }
     }

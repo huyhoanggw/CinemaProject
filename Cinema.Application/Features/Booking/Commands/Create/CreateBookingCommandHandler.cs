@@ -37,19 +37,22 @@ namespace Cinema.Application.Features.Booking.Commands.Create
             // Add booking foods + calculate price
             // Create booking
             // SaveChanges
-            var showTimeSeatIds =await showtimeSeatRepository.GetByShowtimeAndSeatIdsAsync(request.ShowtimeId,request.BookingSeats.Select(x => x.SeatId).ToList());
             var userId = httpcontext.HttpContext.User?.FindFirst("uid")?.Value ?? httpcontext.HttpContext.User?.FindFirst("sub")?.Value
-                ?? httpcontext.HttpContext.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+             ?? httpcontext.HttpContext.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (string.IsNullOrEmpty(userId))
             {
                 throw new UnauthorizedAccessException();
             }
-            var showtime = await  showtimeRepository.FindByIdAsync(request.ShowtimeId);
+            var showtime = await showtimeRepository.FindByIdAsync(request.ShowtimeId);
             if (showtime is null)
             {
                 return new ApiErrorResult<CreateBookingModel>(
                     "Showtime not found");
             }
+            var showTimeSeatIds =await showtimeSeatRepository.GetByShowtimeAndSeatIdsAsync(request.ShowtimeId,request.BookingSeats.Select(x => x.SeatId).ToList());
+     
+          
+           
             if (showTimeSeatIds.Count != request.BookingSeats.Select(x => x.SeatId).Distinct().Count())
             {
                 return new ApiErrorResult<CreateBookingModel>("Seat not found");
