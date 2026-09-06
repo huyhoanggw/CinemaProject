@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\asp\\CinemaProjectSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\services\\payment\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\services\\payment\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\payment\\command\\callbackpayment\\callbackpaymentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\payment\\command\\callbackpayment\\callbackpaymentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\payment\\command\\callbackpayment\\callbackpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\payment\\command\\callbackpayment\\callbackpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\payment\\command\\returnurl\\returnpaymentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\payment\\command\\returnurl\\returnpaymentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\booking\\commands\\create\\createbookingcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\payment\\command\\returnurl\\returnpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\payment\\command\\returnurl\\returnpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\services\\payment\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\services\\payment\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\payment\\command\\callbackpayment\\callbackpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\payment\\command\\callbackpayment\\callbackpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|d:\\asp\\cinemaprojectsolution\\cinema.application\\features\\payment\\command\\returnurl\\returnpaymentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5ED890A-E781-4A9E-AACE-C0B28BFDF215}|Cinema.Application\\Cinema.Application.csproj|solutionrelative:cinema.application\\features\\payment\\command\\returnurl\\returnpaymentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFDC40C5-C1AD-413C-B1F6-F2103509A8DB}|Cinema.Infrastructure\\Cinema.Infrastructure.csproj|d:\\asp\\cinemaprojectsolution\\cinema.infrastructure\\helpers\\vnpay\\vnpayoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -294,7 +294,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 158,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -310,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ReturnPaymentCommand.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Payment\\Command\\ReturnUrl\\ReturnPaymentCommand.cs",
               "RelativeDocumentMoniker": "Cinema.Application\\Features\\Payment\\Command\\ReturnUrl\\ReturnPaymentCommand.cs",
@@ -336,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ReturnPaymentCommandHandler.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Payment\\Command\\ReturnUrl\\ReturnPaymentCommandHandler.cs",
               "RelativeDocumentMoniker": "Cinema.Application\\Features\\Payment\\Command\\ReturnUrl\\ReturnPaymentCommandHandler.cs",
@@ -349,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CreateBookingCommandHandler.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Booking\\Commands\\Create\\CreateBookingCommandHandler.cs",
               "RelativeDocumentMoniker": "Cinema.Application\\Features\\Booking\\Commands\\Create\\CreateBookingCommandHandler.cs",
@@ -362,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CallbackPaymentCommandHandler.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Payment\\Command\\CallbackPayment\\CallbackPaymentCommandHandler.cs",
               "RelativeDocumentMoniker": "Cinema.Application\\Features\\Payment\\Command\\CallbackPayment\\CallbackPaymentCommandHandler.cs",
@@ -375,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CallbackPaymentCommand.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Payment\\Command\\CallbackPayment\\CallbackPaymentCommand.cs",
               "RelativeDocumentMoniker": "Cinema.Application\\Features\\Payment\\Command\\CallbackPayment\\CallbackPaymentCommand.cs",
@@ -388,13 +388,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Services\\Payment\\PaymentService.cs",
               "RelativeDocumentMoniker": "Cinema.Application\\Features\\Services\\Payment\\PaymentService.cs",
               "ToolTip": "D:\\asp\\CinemaProjectSolution\\Cinema.Application\\Features\\Services\\Payment\\PaymentService.cs",
               "RelativeToolTip": "Cinema.Application\\Features\\Services\\Payment\\PaymentService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwEEAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAA5wEEAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-06T15:07:51.605Z",
               "EditorCaption": ""
