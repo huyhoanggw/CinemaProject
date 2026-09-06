@@ -1,7 +1,7 @@
-﻿using MediatR;
+﻿using Cinema.Contracts.Models.Food;
+using Cinema.Contracts.Reponse;
+using MediatR;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Food;
 using System;
 using System.Collections.Generic;
 using System.Linq;

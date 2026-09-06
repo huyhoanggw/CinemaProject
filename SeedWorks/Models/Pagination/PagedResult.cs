@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Pagination
+namespace Cinema.Contracts.Models.Pagination
 {
     public class PagedResult<T> where T : class
     {

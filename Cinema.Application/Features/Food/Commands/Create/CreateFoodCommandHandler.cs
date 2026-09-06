@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
 using Cinema.Application.Features.Showtime.Queries.GetShowtimeById;
 using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Food;
+using Cinema.Contracts.Reponse;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Food;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
 using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Genre;
+using Cinema.Contracts.Reponse;
 using MediatR;
 using Microsoft.EntityFrameworkCore.Storage.Json;
 using Microsoft.Extensions.Logging;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Genre;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

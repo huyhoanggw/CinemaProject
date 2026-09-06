@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Movie
+namespace Cinema.Contracts.Models.Movie
 {
     public record CreateMovieDto {
         public string Name { get; init; } = default!;

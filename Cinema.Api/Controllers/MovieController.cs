@@ -11,7 +11,6 @@ using Cinema.Domain.Enitities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SeedWorks.ApiReponse;
 
 namespace Cinema.Api.Controllers
 {

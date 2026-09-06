@@ -1,10 +1,9 @@
 ﻿using AutoMapper;
 using Cinema.Application.Interfaces;
+using Cinema.Contracts.Reponse;
 using Cinema.Domain.Enitities;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using SeedWorks.ApiReponse;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

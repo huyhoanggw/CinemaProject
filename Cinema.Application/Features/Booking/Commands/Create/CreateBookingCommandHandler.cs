@@ -1,14 +1,13 @@
 ﻿using AutoMapper;
 using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Booking;
+using Cinema.Contracts.Reponse;
 using Cinema.Domain.Enitities;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Booking;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

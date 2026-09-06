@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Theater
+namespace Cinema.Contracts.Models.Theater
 {
     public record CreateTheaterModel
     {

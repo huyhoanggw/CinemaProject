@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Payment
+namespace Cinema.Contracts.Models.Payment
 {
     public record PaymentGatewayResult
     (

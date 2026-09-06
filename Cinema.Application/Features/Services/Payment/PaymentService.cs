@@ -1,9 +1,6 @@
-﻿using Cinema.Application.Features.Services.PaymentService;
-using Cinema.Application.Interfaces;
+﻿using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Payment;
 using Cinema.Domain.Enitities;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Payment;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +10,7 @@ using System.Threading.Tasks;
 namespace Cinema.Application.Features.Services.Payment
 {
     public class PaymentService(IBookingRepository bookingRepository , IPaymentRepository paymentRepository 
-        , IUnitOfWork unitOfwork , IEnumerable<IPaymentGateway> gateways) : IPaymentService
+        , IUnitOfWork unitOfwork , IEnumerable<IPaymentGateway> gateways,IFoodRepository foodRepository) : IPaymentService
     {
         public async Task<PaymentResult> CreatePaymentAsync(Guid BookingId, PaymentMethod paymentMethod, string ReturnUrl, string clientIp, CancellationToken cancellationToken)
         {
@@ -61,6 +58,18 @@ namespace Cinema.Application.Features.Services.Payment
             var payment = await paymentRepository.GetByBookingCode(orderCode);
             if (payment is null) return false;
             var gateway = gateways.First(x => x.PaymentMethod == payment.PaymentMethod);
+            // lay bookingcode de tru so luong food
+            var booking = await bookingRepository.GetByAsync(x => x.BookingCode.Equals(orderCode));
+            if(booking.BookingFoods.Any())
+            {
+                var bookingsFood = booking.BookingFoods.ToList();
+                var foods = await foodRepository.getFoodByIds(bookingsFood.Select(x => x.FoodId).ToList());
+                foreach(var food in foods)
+                {
+                    var bookingfood = bookingsFood.FirstOrDefault(x => x.FoodId == food.Id);
+                    if (bookingfood is not null) food.Quanlity -= bookingfood.Quanlity;
+                }
+            }
             var result =await  gateway.VerifyPaymentAsync(parameters, cancellationToken);
             if (!result.success)
             {

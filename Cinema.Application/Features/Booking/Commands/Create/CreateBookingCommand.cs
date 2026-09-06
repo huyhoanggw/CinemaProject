@@ -1,9 +1,9 @@
-﻿using Cinema.Domain.Enitities;
+﻿using Cinema.Contracts.Models.Booking;
+using Cinema.Contracts.Models.Food;
+using Cinema.Contracts.Models.Seat;
+using Cinema.Contracts.Reponse;
+using Cinema.Domain.Enitities;
 using MediatR;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Booking;
-using SeedWorks.Models.Food;
-using SeedWorks.Models.Seat;
 using System;
 using System.Collections.Generic;
 using System.Linq;

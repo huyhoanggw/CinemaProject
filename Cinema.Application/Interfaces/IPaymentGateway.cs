@@ -1,5 +1,5 @@
-﻿using Cinema.Domain.Enitities;
-using SeedWorks.Models.Payment;
+﻿using Cinema.Contracts.Models.Payment;
+using Cinema.Domain.Enitities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

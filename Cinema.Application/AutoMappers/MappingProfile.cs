@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using Cinema.Application.Features.Genre.Commands.Create;
 using Cinema.Application.Features.Theater.Commands.Create;
+using Cinema.Contracts.Models.Booking;
+using Cinema.Contracts.Models.Genre;
+using Cinema.Contracts.Models.Movie;
+using Cinema.Contracts.Models.Showtime;
+using Cinema.Contracts.Models.Theater;
 using Cinema.Domain.Enitities;
-using SeedWorks.Models.Booking;
-using SeedWorks.Models.Genre;
-using SeedWorks.Models.Movie;
-using SeedWorks.Models.Showtime;
-using SeedWorks.Models.Theater;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,6 +1,6 @@
-﻿using MediatR;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Food;
+﻿using Cinema.Contracts.Models.Food;
+using Cinema.Contracts.Reponse;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;

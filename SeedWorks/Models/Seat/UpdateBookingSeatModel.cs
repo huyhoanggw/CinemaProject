@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Seat
+namespace Cinema.Contracts.Models.Seat
 {
     public record UpdateBookingSeatModel
     {

@@ -1,12 +1,12 @@
-﻿using Cinema.Domain.Enitities;
-using SeedWorks.Models.Payment;
+﻿using Cinema.Contracts.Models.Payment;
+using Cinema.Domain.Enitities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cinema.Application.Features.Services.PaymentService
+namespace Cinema.Application.Features.Services.Payment
 {
     public interface IPaymentService
     {

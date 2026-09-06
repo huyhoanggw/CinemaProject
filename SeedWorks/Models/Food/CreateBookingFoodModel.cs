@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Food
+namespace Cinema.Contracts.Models.Food
 {
     public record CreateBookingFoodModel
     {

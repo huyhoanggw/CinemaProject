@@ -9,7 +9,6 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using Cinema.Application.Features.Services.PaymentService;
 using Cinema.Application.Features.Services.Payment;
 using Cinema.Application.Interfaces.Hubs;
 

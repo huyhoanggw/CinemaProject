@@ -1,10 +1,10 @@
-﻿using Cinema.Application.Features.Services.PaymentService;
+﻿using Cinema.Application.Features.Services.Payment;
 using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Payment;
+using Cinema.Contracts.Reponse;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Payment;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +21,7 @@ namespace Cinema.Application.Features.Payment.Command.CreatePayment
             var clientIp = httpContext.HttpContext?.Connection.RemoteIpAddress?.ToString();
             var result = await paymentService.CreatePaymentAsync(request.BookingId , request.paymentMethod 
                 , request.returnUrl , clientIp ?? "127.0.0.1", cancellationToken);
-            return new SeedWorks.Reponse.ApiSuccessResult<PaymentResult>(result, "create payment success");
+            return new Cinema.Contracts.Reponse.ApiSuccessResult<PaymentResult>(result, "create payment success");
         }
     }
 }

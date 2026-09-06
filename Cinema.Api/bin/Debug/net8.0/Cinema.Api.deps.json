@@ -884,13 +884,24 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Cinema.Contracts": "1.0.0",
           "Cinema.Domain": "1.0.0",
           "MediatR": "14.2.0",
-          "Microsoft.EntityFrameworkCore": "9.0.9",
-          "SeedWorks": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "9.0.9"
         },
         "runtime": {
           "Cinema.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Cinema.Contracts/1.0.0": {
+        "dependencies": {
+          "Cinema.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Cinema.Contracts.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -926,17 +937,6 @@
         },
         "runtime": {
           "Cinema.SignalR.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "SeedWorks/1.0.0": {
-        "dependencies": {
-          "Cinema.Domain": "1.0.0"
-        },
-        "runtime": {
-          "SeedWorks.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1452,6 +1452,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Cinema.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Cinema.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1463,11 +1468,6 @@
       "sha512": ""
     },
     "Cinema.SignalR/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SeedWorks/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

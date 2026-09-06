@@ -1,5 +1,4 @@
-﻿using SeedWorks.Reponse;
-using System.Text.Json;
+﻿using System.Text.Json;
 
 namespace Cinema.Api.Middleware
 {
@@ -47,7 +46,7 @@ namespace Cinema.Api.Middleware
             //{
             //    context.Response.StatusCode = StatusCodes.Status500InternalServerError;
             //}
-            var reponse = new ApiErrorResult<bool>(ex.Message);
+            var reponse = new Cinema.Contracts.Reponse.ApiErrorResult<bool>(ex.Message);
             await context.Response.WriteAsync(JsonSerializer.Serialize(reponse));
         }
     }

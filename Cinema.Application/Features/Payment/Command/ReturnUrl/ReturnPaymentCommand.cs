@@ -1,7 +1,7 @@
-﻿using MediatR;
+﻿using Cinema.Contracts.Models.Payment;
+using Cinema.Contracts.Reponse;
+using MediatR;
 using MediatR.Pipeline;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Payment;
 using System;
 using System.Collections.Generic;
 using System.Linq;

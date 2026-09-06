@@ -1,8 +1,6 @@
-﻿using Cinema.Application.Features.Services.PaymentService;
+﻿using Cinema.Application.Features.Services.Payment;
+using Cinema.Contracts.Reponse;
 using MediatR;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Payment;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

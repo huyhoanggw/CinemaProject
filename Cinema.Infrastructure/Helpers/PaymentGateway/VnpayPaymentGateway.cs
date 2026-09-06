@@ -1,8 +1,8 @@
 ﻿using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Payment;
 using Cinema.Domain.Enitities;
 using Cinema.Infrastructure.Helpers.Vnpay;
 using Microsoft.Extensions.Options;
-using SeedWorks.Models.Payment;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

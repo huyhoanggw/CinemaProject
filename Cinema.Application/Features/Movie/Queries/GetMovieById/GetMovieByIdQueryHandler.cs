@@ -1,10 +1,7 @@
-﻿using Cinema.Application.Features.Movie.Queries.GetMovieById;
-using Cinema.Application.Features.Showtime.Queries.GetMovieById;
-using Cinema.Application.Interfaces;
+﻿using Cinema.Application.Interfaces;
+using Cinema.Contracts.Reponse;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using SeedWorks.ApiReponse;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

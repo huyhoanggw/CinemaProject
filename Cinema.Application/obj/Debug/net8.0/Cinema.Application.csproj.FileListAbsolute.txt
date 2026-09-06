@@ -2,9 +2,7 @@ D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Applicat
 D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Application.dll
 D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Application.pdb
 D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Domain.dll
-D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\SeedWorks.dll
 D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Domain.pdb
-D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\SeedWorks.pdb
 D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\Cinema.Application.csproj.AssemblyReference.cache
 D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\Cinema.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\Cinema.Application.AssemblyInfoInputs.cache
@@ -16,3 +14,5 @@ D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\Cinema.Applicat
 D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\refint\Cinema.Application.dll
 D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\Cinema.Application.pdb
 D:\asp\CinemaProjectSolution\Cinema.Application\obj\Debug\net8.0\ref\Cinema.Application.dll
+D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Contracts.dll
+D:\asp\CinemaProjectSolution\Cinema.Application\bin\Debug\net8.0\Cinema.Contracts.pdb

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Genre
+namespace Cinema.Contracts.Models.Genre
 {
     public record UpdateGenreModel
     {

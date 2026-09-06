@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Food
+namespace Cinema.Contracts.Models.Food
 {
     public record UpdateBookingFoodModel
     {
-       public  Cinema.Domain.Enitities.Food Food{get;set;}
+       public Domain.Enitities.Food Food{get;set;}
        public int Quanlity{get;set;}
         public decimal UnitPrice { get; set; }
     }

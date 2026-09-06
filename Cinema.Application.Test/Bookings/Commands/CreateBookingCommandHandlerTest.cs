@@ -2,13 +2,14 @@
 using Castle.Core.Logging;
 using Cinema.Application.Features.Booking.Commands.Create;
 using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Booking;
+using Cinema.Contracts.Models.Food;
+using Cinema.Contracts.Models.Seat;
 using Cinema.Domain.Enitities;
+using Microsoft.AspNetCore.Authentication.OAuth.Claims;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Moq;
-using SeedWorks.Models.Booking;
-using SeedWorks.Models.Food;
-using SeedWorks.Models.Seat;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -174,6 +175,98 @@ namespace Cinema.Application.Test.Bookings.Commands
             Assert.True(result.IsSuccess);
         }
         [Fact]
+        public async Task Handler_ShouldReturnError_WhenSeatIsSold()
+        {
+            //Arrange
+            var showtimeId = Guid.NewGuid();
+            var seatId = Guid.NewGuid();
+            var foodId = Guid.NewGuid();
+            var bookingseats = new List<CreateBookingSeatModel>
+            {
+               new(){ SeatId = seatId }
+            };
+            var bookingFoods = new List<CreateBookingFoodModel>
+            {
+                 new(){ FoodId = foodId , Quanlity = 1  }
+            };
+
+            var command = new CreateBookingCommand()
+            {
+                ShowtimeId = showtimeId,
+                BookingSeats = bookingseats,
+                BookingFoods = bookingFoods
+            };
+            //ShowtimeSeat
+            _showtimeSeatRepository.Setup(x => x.GetByShowtimeAndSeatIdsAsync(showtimeId, It.IsAny<List<Guid>>()))
+                .ReturnsAsync(new List<ShowtimeSeat>()
+                {
+                    new ShowtimeSeat(){Id = Guid.NewGuid() , ShowtimeId = showtimeId , SeatId = seatId , Status = ShowtimeSeatStatus.Booked},
+                });
+            // httpcontext
+            var claims = new List<Claim>()
+                {
+                    new Claim("uid", "test-user")
+                };
+            var claimIdentity = new ClaimsIdentity(claims);
+            var claimPrincipal = new ClaimsPrincipal(claimIdentity);
+            var user = new DefaultHttpContext() { User = claimPrincipal };
+            _httpcontext.Setup(x => x.HttpContext).Returns(user);
+            //Showtime
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
+            //food
+            _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
+            //Act 
+            var result = await _handler.Handle(command, CancellationToken.None);
+            // Assert
+            Assert.False(result.IsSuccess);
+        }
+        [Fact]
+        public async Task Handler_ShouldReturnError_WhenSeatIsHold()
+        {
+            //Arrange
+            var showtimeId = Guid.NewGuid();
+            var seatId = Guid.NewGuid();
+            var foodId = Guid.NewGuid();
+            var bookingseats = new List<CreateBookingSeatModel>
+            {
+               new(){ SeatId = seatId }
+            };
+            var bookingFoods = new List<CreateBookingFoodModel>
+            {
+                 new(){ FoodId = foodId , Quanlity = 1  }
+            };
+
+            var command = new CreateBookingCommand()
+            {
+                ShowtimeId = showtimeId,
+                BookingSeats = bookingseats,
+                BookingFoods = bookingFoods
+            };
+            //ShowtimeSeat
+            _showtimeSeatRepository.Setup(x => x.GetByShowtimeAndSeatIdsAsync(showtimeId, It.IsAny<List<Guid>>()))
+                .ReturnsAsync(new List<ShowtimeSeat>()
+                {
+                    new ShowtimeSeat(){Id = Guid.NewGuid() , ShowtimeId = showtimeId , SeatId = seatId , Status = ShowtimeSeatStatus.Hold},
+                });
+            // httpcontext
+            var claims = new List<Claim>()
+                {
+                    new Claim("uid", "test-user")
+                };
+            var claimIdentity = new ClaimsIdentity(claims);
+            var claimPrincipal = new ClaimsPrincipal(claimIdentity);
+            var user = new DefaultHttpContext() { User = claimPrincipal };
+            _httpcontext.Setup(x => x.HttpContext).Returns(user);
+            //Showtime
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
+            //food
+            _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
+            //Act 
+            var result = await _handler.Handle(command, CancellationToken.None);
+            // Assert
+            Assert.False(result.IsSuccess);
+        }
+        [Fact]
         public async Task Handler_ShouldReturnError_WhenSeatNotFound()
         {
             //Arrange
@@ -197,7 +290,11 @@ namespace Cinema.Application.Test.Bookings.Commands
             };
             //ShowtimeSeat
             _showtimeSeatRepository.Setup(x => x.GetByShowtimeAndSeatIdsAsync(showtimeId, It.IsAny<List<Guid>>()))
-                .ReturnsAsync((List<ShowtimeSeat>?)null);
+                .ReturnsAsync(new List<ShowtimeSeat>()
+                {
+                    new ShowtimeSeat(){Id = Guid.NewGuid() },
+                    new ShowtimeSeat(){Id = Guid.NewGuid() }
+                });
             // httpcontext
             var claims = new List<Claim>()
                 {
@@ -208,7 +305,7 @@ namespace Cinema.Application.Test.Bookings.Commands
             var user = new DefaultHttpContext() { User = claimPrincipal };
             _httpcontext.Setup(x => x.HttpContext).Returns(user);
             //Showtime
-            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync((Showtime?)null);
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
             //food
             _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
             //Act 
@@ -216,5 +313,79 @@ namespace Cinema.Application.Test.Bookings.Commands
             // Assert
             Assert.False(result.IsSuccess);
         }
+        [Fact]
+        public async Task Handler_ShouldContinue_WhenSeatisAvailable()
+        {
+            //Arrange
+            var showtimeId = Guid.NewGuid();
+            var seatId = Guid.NewGuid();
+            var foodId = Guid.NewGuid();
+            var bookingseats = new List<CreateBookingSeatModel>
+            {
+               new(){ SeatId = seatId }
+            };
+            var bookingFoods = new List<CreateBookingFoodModel>
+            {
+                 new(){ FoodId = foodId , Quanlity = 1  }
+            };
+
+            var command = new CreateBookingCommand()
+            {
+                ShowtimeId = showtimeId,
+                BookingSeats = bookingseats,
+                BookingFoods = bookingFoods
+            };
+            //ShowtimeSeat
+            _showtimeSeatRepository.Setup(x => x.GetByShowtimeAndSeatIdsAsync(showtimeId, It.IsAny<List<Guid>>()))
+                .ReturnsAsync(new List<ShowtimeSeat>()
+                {
+                    new ShowtimeSeat()
+                    {Id = Guid.NewGuid() , SeatId = seatId , Price = 59000 
+                    , ShowtimeId = showtimeId , Status = ShowtimeSeatStatus.Available}
+                }); 
+            // httpcontext
+            var claims = new List<Claim>()
+                {
+                    new Claim("uid", "test-user")
+                };
+            var claimIdentity = new ClaimsIdentity(claims);
+            var claimPrincipal = new ClaimsPrincipal(claimIdentity);
+            var user = new DefaultHttpContext() { User = claimPrincipal };
+            _httpcontext.Setup(x => x.HttpContext).Returns(user);
+            //Showtime
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
+            //food
+            _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
+            //Act 
+            var result = await _handler.Handle(command, CancellationToken.None);
+            // Assert
+            Assert.True(result.IsSuccess);
+
+            _unitOfWork.Verify(
+                x => x.BeginTransaction(
+                    It.IsAny<CancellationToken>()),
+                Times.Once);
+
+            _unitOfWork.Verify(
+                x => x.SaveChangeAsync(
+                    It.IsAny<CancellationToken>()),
+                Times.Once);
+
+            _unitOfWork.Verify(
+                x => x.CommitTransaction(
+                    It.IsAny<CancellationToken>()),
+                Times.Once);
+
+            _bookingRepository.Verify(
+                x => x.CreateAsync(
+                    It.IsAny<Booking>()),
+                Times.Once);
+
+            _bookingSeatRepository.Verify(
+                x => x.AddRange(
+                    It.IsAny<List<BookingSeat>>()),
+                Times.Once);
+        }
+
     }
 }

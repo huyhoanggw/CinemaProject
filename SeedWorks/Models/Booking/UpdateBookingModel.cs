@@ -5,19 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Booking
+namespace Cinema.Contracts.Models.Booking
 {
     public record UpdateBookingModel
     {
           public string UserId{get;set;}
           public Guid ShowtimeId{get;set;}
-       public Cinema.Domain.Enitities.Showtime Showtime{get;set;}
+       public Domain.Enitities.Showtime Showtime{get;set;}
         public string BookingCode{get;set;}
         public decimal TotalPrice{get;set;}
          public BookingStatus Status{get;set;}
          public ICollection<BookingSeat> BookingSeats{get;set;}
          public ICollection<BookingFood> BookingFoods{get;set;}
-         public Cinema.Domain.Enitities.Payment?  Payment { get; set; }
+         public Domain.Enitities.Payment?  Payment { get; set; }
         }
         
 

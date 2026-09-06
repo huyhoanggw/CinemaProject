@@ -348,6 +348,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Cinema.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Cinema.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cinema.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cinema.Contracts.dll": {}
+        }
+      },
       "Cinema.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -356,19 +369,6 @@
         },
         "runtime": {
           "bin/placeholder/Cinema.Domain.dll": {}
-        }
-      },
-      "SeedWorks/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Cinema.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SeedWorks.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SeedWorks.dll": {}
         }
       }
     }
@@ -984,25 +984,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Cinema.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../SeedWorks/Cinema.Contracts.csproj",
+      "msbuildProject": "../SeedWorks/Cinema.Contracts.csproj"
+    },
     "Cinema.Domain/1.0.0": {
       "type": "project",
       "path": "../Cinema.Domain/Cinema.Domain.csproj",
       "msbuildProject": "../Cinema.Domain/Cinema.Domain.csproj"
-    },
-    "SeedWorks/1.0.0": {
-      "type": "project",
-      "path": "../SeedWorks/SeedWorks.csproj",
-      "msbuildProject": "../SeedWorks/SeedWorks.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "Cinema.Contracts >= 1.0.0",
       "Cinema.Domain >= 1.0.0",
       "MediatR >= 14.2.0",
-      "Microsoft.EntityFrameworkCore >= 8.0.29",
-      "SeedWorks >= 1.0.0"
+      "Microsoft.EntityFrameworkCore >= 8.0.29"
     ]
   },
   "packageFolders": {
@@ -1043,8 +1043,8 @@
             "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Cinema.Domain.csproj": {
               "projectPath": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Cinema.Domain.csproj"
             },
-            "D:\\asp\\CinemaProjectSolution\\SeedWorks\\SeedWorks.csproj": {
-              "projectPath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\SeedWorks.csproj"
+            "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj": {
+              "projectPath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj"
             }
           }
         }

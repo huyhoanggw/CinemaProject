@@ -10,10 +10,10 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Cinema.Contracts": "1.0.0",
           "Cinema.Domain": "1.0.0",
           "MediatR": "14.2.0",
-          "Microsoft.EntityFrameworkCore": "8.0.29",
-          "SeedWorks": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "8.0.29"
         },
         "runtime": {
           "Cinema.Application.dll": {}
@@ -200,20 +200,20 @@
           }
         }
       },
-      "Cinema.Domain/1.0.0": {
+      "Cinema.Contracts/1.0.0": {
+        "dependencies": {
+          "Cinema.Domain": "1.0.0"
+        },
         "runtime": {
-          "Cinema.Domain.dll": {
+          "Cinema.Contracts.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "SeedWorks/1.0.0": {
-        "dependencies": {
-          "Cinema.Domain": "1.0.0"
-        },
+      "Cinema.Domain/1.0.0": {
         "runtime": {
-          "SeedWorks.dll": {
+          "Cinema.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -346,12 +346,12 @@
       "path": "system.diagnostics.diagnosticsource/10.0.0",
       "hashPath": "system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512"
     },
-    "Cinema.Domain/1.0.0": {
+    "Cinema.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "SeedWorks/1.0.0": {
+    "Cinema.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

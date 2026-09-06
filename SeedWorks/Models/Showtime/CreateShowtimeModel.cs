@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeedWorks.Models.Showtime
+namespace Cinema.Contracts.Models.Showtime
 {
     public record CreateShowtimeModel
     {

@@ -150,8 +150,8 @@
               "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Cinema.Domain.csproj": {
                 "projectPath": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Cinema.Domain.csproj"
               },
-              "D:\\asp\\CinemaProjectSolution\\SeedWorks\\SeedWorks.csproj": {
-                "projectPath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\SeedWorks.csproj"
+              "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj": {
+                "projectPath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj"
               }
             }
           }
@@ -515,12 +515,12 @@
         }
       }
     },
-    "D:\\asp\\CinemaProjectSolution\\SeedWorks\\SeedWorks.csproj": {
+    "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\SeedWorks.csproj",
-        "projectName": "SeedWorks",
-        "projectPath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\SeedWorks.csproj",
+        "projectUniqueName": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj",
+        "projectName": "Cinema.Contracts",
+        "projectPath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj",
         "packagesPath": "C:\\Users\\HOANG\\.nuget\\packages\\",
         "outputPath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\obj\\",
         "projectStyle": "PackageReference",

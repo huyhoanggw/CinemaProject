@@ -1,9 +1,8 @@
 ﻿using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Pagination;
+using Cinema.Contracts.Reponse;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Pagination;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

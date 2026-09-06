@@ -1,11 +1,9 @@
 ﻿using AutoMapper;
 using Cinema.Application.Features.Seat.Queries.GetSeatById;
 using Cinema.Application.Interfaces;
+using Cinema.Contracts.Reponse;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Seat;
-using SeedWorks.Reponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

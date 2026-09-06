@@ -1,6 +1,6 @@
-﻿using MediatR;
-using SeedWorks.ApiReponse;
-using SeedWorks.Models.Theater;
+﻿using Cinema.Contracts.Models.Theater;
+using Cinema.Contracts.Reponse;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;

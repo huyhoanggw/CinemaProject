@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dy8QTyk7dXI=",
+  "dgSpecHash": "uIbMugX9btY=",
   "success": true,
-  "projectFilePath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\SeedWorks.csproj",
+  "projectFilePath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HOANG\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.29\\microsoft.windowsdesktop.app.ref.8.0.29.nupkg.sha512",
     "C:\\Users\\HOANG\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.29\\microsoft.netcore.app.ref.8.0.29.nupkg.sha512",

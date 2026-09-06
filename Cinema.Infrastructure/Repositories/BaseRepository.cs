@@ -1,8 +1,8 @@
 ﻿using Cinema.Application.Interfaces;
+using Cinema.Contracts.Models.Pagination;
 using Cinema.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using SeedWorks.Models.Pagination;
 using System;
 using System.Collections.Generic;
 using System.Linq;
