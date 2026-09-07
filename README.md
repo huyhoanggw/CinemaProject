@@ -52,7 +52,7 @@ CinemaProjectSolution
 ### 1. Clone project
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/huyhoanggw/CinemaProject.git>
 cd CinemaProjectSolution
 ```
 
