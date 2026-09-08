@@ -88,6 +88,7 @@ public class Index : PageModel
             if (result.Succeeded)
             {
                 await _signInManager.SignInAsync(usermodel, isPersistent: false);
+                await _userManager.AddToRoleAsync(usermodel, "User");
 
             }
             else

@@ -200,3 +200,4 @@ D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\refint\Cinema.I
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.pdb
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.genruntimeconfig.cache
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\ref\Cinema.IdentityApi.dll
+D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

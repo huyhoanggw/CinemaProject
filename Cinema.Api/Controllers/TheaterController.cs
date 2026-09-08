@@ -14,32 +14,32 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cinema.Api.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
 
     public class TheaterController(IMediator mediator, ILogger<TheaterController> logger) : BaseController
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetTheaters([FromQuery] int pageSize , int pageNumber)
+        public async Task<IActionResult> GetTheaters([FromQuery] int pageSize, int pageNumber)
         {
-            var result = await mediator.Send(new GetTheaterPagingQuery() { PageNumber = pageNumber , PageSize = pageSize});
+            var result = await mediator.Send(new GetTheaterPagingQuery() { PageNumber = pageNumber, PageSize = pageSize });
             return Ok(result);
-                
+
         }
         [PermissionAttribute(Permission.TheaterCreate)]
         [HttpPost]
-        public async Task<IActionResult> AddTheater([FromBody]Theater request)
+        public async Task<IActionResult> AddTheater([FromBody] Theater request)
         {
             var result = await mediator.Send(new CreateTheaterCommand() { Name = request.Name });
             return result.IsSuccess ? Ok(result) : NotFound(result);
-                
+
         }
 
         [PermissionAttribute(Permission.TheaterUpdate)]
         [HttpPut]
         public async Task<IActionResult> UpdateTheater([FromBody] Theater request)
         {
-            var result = await mediator.Send(new UpdateTheaterCommand() { Name = request.Name});
+            var result = await mediator.Send(new UpdateTheaterCommand() { Name = request.Name });
             return result.IsSuccess ? Ok(result) : NotFound(result);
 
         }
@@ -47,7 +47,7 @@ namespace Cinema.Api.Controllers
         [HttpDelete]
         public async Task<IActionResult> DeleteTheater([FromQuery] Guid Id)
         {
-            var result = await mediator.Send(new DeleteTheaterCommand() { Id = Id } );
+            var result = await mediator.Send(new DeleteTheaterCommand() { Id = Id });
             return result.IsSuccess ? Ok(result) : NotFound(result);
 
         }

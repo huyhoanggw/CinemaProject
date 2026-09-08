@@ -24,41 +24,40 @@ namespace Cinema.Api
             builder.Services.AddSignalRService();
             builder.Services.AddApplicationService();
             builder.Services.AddInfrastructureServie(builder.Configuration);
-             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
-           {
-               option.Authority = "https://localhost:5004";
-               option.RequireHttpsMetadata = true;
-               option.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-               {
-                   ValidateIssuer = true,
-                   ValidateAudience = false,
-                   ValidateLifetime = true,
-                   ValidateIssuerSigningKey = true,
-               };
-               option.Events = new JwtBearerEvents
-               {
-                   OnMessageReceived = context =>
-                   {
-                       Console.WriteLine("========== JWT RECEIVED ==========");
-                       var auth = context.Request.Headers.Authorization.ToString();
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(option =>
+          {
+              option.Authority = "https://localhost:5004";
+              option.RequireHttpsMetadata = true;
+              option.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+              {
+                  ValidateIssuer = true,
+                  ValidateAudience = false,
+                  ValidateLifetime = true,
+                  ValidateIssuerSigningKey = true,
+              };
+              option.Events = new JwtBearerEvents
+              {
+                  OnMessageReceived = context =>
+                  {
+                      Console.WriteLine("JWT RECEIVED");
+                      var auth = context.Request.Headers.Authorization.ToString();
 
-                       Console.WriteLine($"Authorization: {auth}");
-                       return Task.CompletedTask;
-                   },
-                   OnAuthenticationFailed = context =>
-                   {
-                       Console.WriteLine("========== JWT ERROR ==========");
-                       Console.WriteLine(context.Exception);
-                       Console.WriteLine("================================");
+                      Console.WriteLine($"Authorization: {auth}");
+                      return Task.CompletedTask;
+                  },
+                  OnAuthenticationFailed = context =>
+                  {
+                      Console.WriteLine("JWT ERROR");
+                      Console.WriteLine(context.Exception);
 
-                       return Task.CompletedTask;
-                   }
+                      return Task.CompletedTask;
+                  }
 
 
-                                };
-           }
+              };
+          }
 
-           );
+          );
             builder.Services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo
@@ -138,27 +137,27 @@ namespace Cinema.Api
         "booking.cancel",
                        };
 
-                foreach(var permission in permissions)
+                foreach (var permission in permissions)
                 {
                     options.AddPolicy(permission, policy =>
                     {
                         policy.RequireClaim("permission", permission);
                     });
                 }
-                //var roles = new[]
-                //{
-                //"Admin",
-                //"Manager",
-                //"Staff",
-                //"User"
-                //};
-                //foreach(var role in roles)
-                //{
-                //    options.AddPolicy(role, policy =>
-                //    {
-                //        policy.RequireRole(role);
-                //    });
-                //}
+                var roles = new[]
+                {
+                "Admin",
+                "Manager",
+                "Staff",
+                "User"
+                };
+                foreach (var role in roles)
+                {
+                    options.AddPolicy(role, policy =>
+                    {
+                        policy.RequireRole(role);
+                    });
+                }
             });
             var app = builder.Build();
 

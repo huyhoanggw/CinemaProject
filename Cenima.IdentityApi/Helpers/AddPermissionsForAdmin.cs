@@ -8,13 +8,13 @@ namespace Cinema.IdentityApi.Helpers
 {
     public static class AddPermissionsForAdmin
     {
-        public static async Task AddAsync(ApplicationDbcontext dbcontext )
+        public static async Task AddAsync(ApplicationDbcontext dbcontext)
         {
-         
-             var permissions = await dbcontext.Set<Permission>().ToListAsync();
-            foreach(var permission in permissions)
+
+            var permissions = await dbcontext.Set<Permission>().ToListAsync();
+            foreach (var permission in permissions)
             {
-                await PermissionHelper.AddPermissionToRoleAsync(dbcontext, "c6bb5c19-8132-4076-8508-dcf9437afe0e", permission.Code);
+                await PermissionHelper.AddPermissionToRoleAsync(dbcontext, "31502c78-7a3f-4f5f-96b6-3504e1caee9a", permission.Code);
 
             }
         }

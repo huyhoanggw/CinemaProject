@@ -13,25 +13,25 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cinema.Api.Controllers
 {
-    [Authorize]    
-    
-    public class ShowtimeController(IMediator mediator , ILogger<ShowtimeController> logger) : BaseController
+    [Authorize]
+
+    public class ShowtimeController(IMediator mediator, ILogger<ShowtimeController> logger) : BaseController
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetShowtimes([FromQuery] int PageNumber , int Pagesize)
+        public async Task<IActionResult> GetShowtimes([FromQuery] int PageNumber, int Pagesize)
         {
-            var result = await mediator.Send(new GetTheaterPagingQuery() { PageSize = Pagesize , PageNumber = PageNumber});
+            var result = await mediator.Send(new GetTheaterPagingQuery() { PageSize = Pagesize, PageNumber = PageNumber });
             return Ok(result);
-                
+
         }
         [PermissionAttribute(Permission.ShowtimeCreate)]
         [HttpPost]
-        public async Task<IActionResult> AddShowtime([FromBody]CreateShowtimeCommand request)
+        public async Task<IActionResult> AddShowtime([FromBody] CreateShowtimeCommand request)
         {
             var result = await mediator.Send(request);
             return result.IsSuccess ? Ok(result) : NotFound(result);
-                
+
         }
 
         [PermissionAttribute(Permission.ShowtimeUpdate)]
@@ -46,7 +46,7 @@ namespace Cinema.Api.Controllers
         [HttpDelete]
         public async Task<IActionResult> DeleteShowtime([FromQuery] Guid Id)
         {
-            var result = await mediator.Send(new DeleteShowtimeCommand() { ShowtimeId = Id } );
+            var result = await mediator.Send(new DeleteShowtimeCommand() { ShowtimeId = Id });
             return result.IsSuccess ? Ok(result) : NotFound(result);
 
         }
