@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Services.Payment
 {
-    public class PaymentService(IBookingRepository bookingRepository , IPaymentRepository paymentRepository 
-        , IUnitOfWork unitOfwork , IEnumerable<IPaymentGateway> gateways,IFoodRepository foodRepository) : IPaymentService
+    public class PaymentService(IBookingRepository bookingRepository, IPaymentRepository paymentRepository
+        , IUnitOfWork unitOfwork, IEnumerable<IPaymentGateway> gateways, IFoodRepository foodRepository, ISeatHoldService seatHoldService, IShowtimeSeatRepository showtimeSeatRepository) : IPaymentService
     {
         public async Task<PaymentResult> CreatePaymentAsync(Guid BookingId, PaymentMethod paymentMethod, string ReturnUrl, string clientIp, CancellationToken cancellationToken)
         {
@@ -29,7 +29,7 @@ namespace Cinema.Application.Features.Services.Payment
                 CreateAt = DateTime.UtcNow
             };
             await paymentRepository.CreateAsync(payment);
-            var gatewayRequest = new PaymentGatewayRequest(payment.Id, booking.BookingCode, payment.Amount, ReturnUrl,clientIp);
+            var gatewayRequest = new PaymentGatewayRequest(payment.Id, booking.BookingCode, payment.Amount, ReturnUrl, clientIp);
             var result = await gateway.CreatePaymentAsync(gatewayRequest, cancellationToken);
             if (!result.success)
             {
@@ -46,10 +46,10 @@ namespace Cinema.Application.Features.Services.Payment
                 PaymentId = payment.Id,
                 Status = payment.Status.ToString()
             };
-           
+
         }
 
-        public async Task<bool> HandlerPaymentCallback(SortedDictionary<string,string> parameters, CancellationToken cancellationToken)
+        public async Task<bool> HandlerPaymentCallback(SortedDictionary<string, string> parameters, CancellationToken cancellationToken)
         {
             if (!parameters.TryGetValue("vnp_TxnRef", out var orderCode))
             {
@@ -60,17 +60,21 @@ namespace Cinema.Application.Features.Services.Payment
             var gateway = gateways.First(x => x.PaymentMethod == payment.PaymentMethod);
             // lay bookingcode de tru so luong food
             var booking = await bookingRepository.GetByAsync(x => x.BookingCode.Equals(orderCode));
-            if(booking.BookingFoods.Any())
+            if (booking is null) return false;
+            // lay showtime seat de xoa key trong redis
+            var showtimeseat = await showtimeSeatRepository.GetShowtimeSeatsByBookingSeats(booking.BookingSeats.ToList());
+            if (showtimeseat is null) return false;
+            if (booking.BookingFoods.Any())
             {
                 var bookingsFood = booking.BookingFoods.ToList();
                 var foods = await foodRepository.getFoodByIds(bookingsFood.Select(x => x.FoodId).ToList());
-                foreach(var food in foods)
-                {
+                foreach (var food in foods)
+                { // nếu mà food trong booking food bằng với food id trong db thì trừ đi 
                     var bookingfood = bookingsFood.FirstOrDefault(x => x.FoodId == food.Id);
                     if (bookingfood is not null) food.Quanlity -= bookingfood.Quanlity;
                 }
             }
-            var result =await  gateway.VerifyPaymentAsync(parameters, cancellationToken);
+            var result = await gateway.VerifyPaymentAsync(parameters, cancellationToken);
             if (!result.success)
             {
                 payment.Status = PaymentStatus.Failed;
@@ -81,19 +85,20 @@ namespace Cinema.Application.Features.Services.Payment
             payment.TransactionId = result.TransactionId;
             payment.PaidAt = DateTime.UtcNow;
             payment.Booking.Status = BookingStatus.Confirmed;
+            await seatHoldService.ReleaseSeatsAsync(booking.ShowtimeId, showtimeseat.Select(x => x.SeatId).ToList());
             await unitOfwork.SaveChangeAsync(cancellationToken);
             return true;
         }
 
         public async Task<PaymentReturnDto> HandlerPaymentReturn(SortedDictionary<string, string> parameters, CancellationToken cancellationToken)
-        { 
-             if (!parameters.TryGetValue(
-           "vnp_TxnRef",
-             out var bookingCode))
+        {
+            if (!parameters.TryGetValue(
+          "vnp_TxnRef",
+            out var bookingCode))
             {
-                return new PaymentReturnDto(false,null,null);
+                return new PaymentReturnDto(false, null, null);
             }
-             var payment = await paymentRepository.GetByBookingCode(bookingCode);
+            var payment = await paymentRepository.GetByBookingCode(bookingCode);
             if (payment is null) return new PaymentReturnDto(false, null, null);
             var gateway = gateways.First(x => x.PaymentMethod == payment.PaymentMethod);
             if (gateway is null)
@@ -104,7 +109,7 @@ namespace Cinema.Application.Features.Services.Payment
                     payment.PaymentMethod);
             }
             var result = await gateway.VerifyPaymentAsync(parameters, cancellationToken);
-            if(result.success)
+            if (result.success)
             {
                 return new PaymentReturnDto(true, bookingCode, payment.PaymentMethod);
             }

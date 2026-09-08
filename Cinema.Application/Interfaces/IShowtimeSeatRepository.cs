@@ -10,6 +10,7 @@ namespace Cinema.Application.Interfaces
     public interface IShowtimeSeatRepository : IBaseRepository<ShowtimeSeat>
     {
         Task<List<ShowtimeSeat>> GetByShowtimeAndSeatIdsAsync(Guid showtimeId, IEnumerable<Guid> seatId);
-        Task<List<ShowtimeSeat>> GetByIds( IEnumerable<Guid> ShowtimeSeatIds);
+        Task<List<ShowtimeSeat>> GetByIds(IEnumerable<Guid> ShowtimeSeatIds);
+        Task<List<ShowtimeSeat>> GetShowtimeSeatsByBookingSeats(List<BookingSeat> bookingSeat);
     }
 }

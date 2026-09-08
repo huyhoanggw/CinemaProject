@@ -1,0 +1,29 @@
+
+services:
+  sqlserver:
+   image: mcr.microsoft.com/mssql/server:2019-latest 
+   container_name: cinema_sqlserver
+   restart: always
+   environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Huyhoang@123456 
+      - MSSQL_PID=Developer
+   ports:
+      - "1433:1433" 
+   volumes:
+      - sqlserver-data:/var/lib/sqlserver/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: cinema_redis
+    restart: always
+    command: redis-server
+    ports:
+     - '6379:6379'
+    volumes:
+      - redis-data:/data
+ 
+volumes:
+   sqlserver-data:
+   redis-data:
+      

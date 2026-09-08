@@ -17,17 +17,22 @@ namespace Cinema.Infrastructure.Repositories
 
         public ShowtimeSeatRepository(CinemaDbcontext _context, ILogger<BaseRepository<ShowtimeSeat>> _logger) : base(_context, _logger)
         {
-            context = _context; 
+            context = _context;
         }
 
         public async Task<List<ShowtimeSeat>> GetByIds(IEnumerable<Guid> ShowtimeSeatIds)
         {
-            return await context.Set<ShowtimeSeat>().Where(x =>  ShowtimeSeatIds.Contains(x.Id)).ToListAsync();
+            return await context.Set<ShowtimeSeat>().Where(x => ShowtimeSeatIds.Contains(x.Id)).ToListAsync();
         }
 
         public async Task<List<ShowtimeSeat>> GetByShowtimeAndSeatIdsAsync(Guid showtimeId, IEnumerable<Guid> seatId)
         {
-            return await  context.Set<ShowtimeSeat>().Where(x => x.ShowtimeId == showtimeId && seatId.Contains(x.SeatId)).ToListAsync();
+            return await context.Set<ShowtimeSeat>().Where(x => x.ShowtimeId == showtimeId && seatId.Contains(x.SeatId)).ToListAsync();
+        }
+
+        public async Task<List<ShowtimeSeat>> GetShowtimeSeatsByBookingSeats(List<BookingSeat> bookingSeat)
+        {
+            return await context.Set<ShowtimeSeat>().Where(x => bookingSeat.Select(x => x.ShowtimeSeatId).Equals(x.Id)).ToListAsync();
         }
     }
 }

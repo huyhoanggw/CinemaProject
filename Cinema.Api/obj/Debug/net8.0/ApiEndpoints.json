@@ -286,6 +286,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Cinema.Api.Controllers.PaymentController",
+    "Method": "vnpReturn",
+    "RelativePath": "api/Payment/vnp/return_url",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Cinema.Api.Controllers.SeatController",
     "Method": "GetSeats",
     "RelativePath": "api/Seat",

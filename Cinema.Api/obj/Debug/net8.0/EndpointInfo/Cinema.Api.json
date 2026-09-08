@@ -460,6 +460,18 @@
         }
       }
     },
+    "/api/Payment/vnp/return_url": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Seat": {
       "get": {
         "tags": [

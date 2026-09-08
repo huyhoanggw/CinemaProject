@@ -194,7 +194,6 @@ D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\staticwebassets
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\staticwebassets.development.json
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\swae.build.ex.cache
-D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.I.842902B8.Up2Date
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\Cinema.IdentityApi.dll
 D:\asp\CinemaProjectSolution\Cenima.IdentityApi\obj\Debug\net8.0\refint\Cinema.IdentityApi.dll

@@ -17,6 +17,7 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
     <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.6.2\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.6.2\build\Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)stackexchange.redis\3.1.31\build\StackExchange.Redis.props" Condition="Exists('$(NuGetPackageRoot)stackexchange.redis\3.1.31\build\StackExchange.Redis.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.9\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.9\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

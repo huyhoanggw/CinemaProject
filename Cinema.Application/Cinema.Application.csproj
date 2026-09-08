@@ -7,8 +7,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\Cinema.Contracts\Cinema.Contracts.csproj" />
 		<ProjectReference Include="..\Cinema.Domain\Cinema.Domain.csproj" />
-		<ProjectReference Include="..\SeedWorks\Cinema.Contracts.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

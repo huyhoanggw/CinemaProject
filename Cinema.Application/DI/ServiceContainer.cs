@@ -11,18 +11,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Cinema.Application.Features.Services.Payment;
 using Cinema.Application.Interfaces.Hubs;
+using Cinema.Application.Features.Services.SeatHold;
 
 namespace Cinema.Application.DI
 {
-    public static class ServiceContainer 
+    public static class ServiceContainer
     {
-        public static IServiceCollection AddApplicationService(this IServiceCollection services ) 
+        public static IServiceCollection AddApplicationService(this IServiceCollection services)
         {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(ServiceContainer).Assembly));
             services.AddAutoMapper(typeof(MappingProfile));
             services.AddHostedService<BookingExprationService>();
             services.AddScoped<IPaymentService, PaymentService>();
-           services.AddHttpContextAccessor();
+            services.AddScoped<ISeatHoldService, SeatHoldService>();
+            services.AddHttpContextAccessor();
 
             return services;
         }

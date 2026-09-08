@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Cinema.Application.Interfaces;
+using Cinema.Application.Interfaces.Redis;
 using Cinema.Contracts.Models.Booking;
 using Cinema.Contracts.Reponse;
 using Cinema.Domain.Enitities;
@@ -19,9 +20,9 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Booking.Commands.Create
 {
-    public class CreateBookingCommandHandler(IBookingRepository repository ,IShowtimeRepository showtimeRepository,IShowtimeSeatRepository showtimeSeatRepository
-        ,ILogger<CreateBookingCommandHandler> logger , IMapper mapper , IUnitOfWork unitOfWork , IHttpContextAccessor httpcontext , IFoodRepository FoodRepository
-        , IBookingSeatRepository bookingSeatRepository , IBookingFoodRepository BookingFoodRepository) : IRequestHandler<CreateBookingCommand, ApiResult<CreateBookingModel>>
+    public class CreateBookingCommandHandler(IBookingRepository repository, IShowtimeRepository showtimeRepository, IShowtimeSeatRepository showtimeSeatRepository
+        , ILogger<CreateBookingCommandHandler> logger, IMapper mapper, IUnitOfWork unitOfWork, IHttpContextAccessor httpcontext, IFoodRepository FoodRepository
+        , IBookingSeatRepository bookingSeatRepository, IBookingFoodRepository BookingFoodRepository, ISeatHoldService seatHoldService) : IRequestHandler<CreateBookingCommand, ApiResult<CreateBookingModel>>
     {
         public async Task<ApiResult<CreateBookingModel>> Handle(CreateBookingCommand request, CancellationToken cancellationToken)
         {
@@ -48,10 +49,10 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                 return new ApiErrorResult<CreateBookingModel>(
                     "Showtime not found");
             }
-            var showTimeSeatIds =await showtimeSeatRepository.GetByShowtimeAndSeatIdsAsync(request.ShowtimeId,request.BookingSeats.Select(x => x.SeatId).ToList());
-     
-          
-           
+            var showTimeSeatIds = await showtimeSeatRepository.GetByShowtimeAndSeatIdsAsync(request.ShowtimeId, request.BookingSeats.Select(x => x.SeatId).ToList());
+
+
+
             if (showTimeSeatIds.Count != request.BookingSeats.Select(x => x.SeatId).Distinct().Count())
             {
                 return new ApiErrorResult<CreateBookingModel>("Seat not found");
@@ -68,11 +69,16 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                 Status = BookingStatus.Pending,
                 ExpiredAt = DateTime.UtcNow.AddMinutes(10)
             };
-            if(showTimeSeatIds.Any(x => x.Status != ShowtimeSeatStatus.Available))
+            if (showTimeSeatIds.Any(x => x.Status != ShowtimeSeatStatus.Available))
             {
                 return new ApiErrorResult<CreateBookingModel>("One or more seats are not available");
             }
-            foreach( var showtimeseat in showTimeSeatIds)
+            var success = await seatHoldService.HoldSeatsAsync(request.ShowtimeId, request.BookingSeats.Select(x => x.SeatId).ToList(), userId, TimeSpan.FromMinutes(10));
+            if (!success)
+            {
+                return new ApiErrorResult<CreateBookingModel>("One or more seats are not available");
+            }
+            foreach (var showtimeseat in showTimeSeatIds)
             {
                 showtimeseat.Status = ShowtimeSeatStatus.Hold;
                 showtimeseat.ReservedBy = userId;
@@ -84,13 +90,13 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                     BookingId = booking.Id,
                     ShowtimeSeatId = showtimeseat.Id,
                     Price = showtimeseat.Price
-                    
+
                 });
                 booking.TotalPrice += showtimeseat.Price;
             }
             var Foods = await FoodRepository.getFoodByIds(request.BookingFoods.Select(x => x.FoodId).ToList());
             if (Foods is null) return new ApiErrorResult<CreateBookingModel>("Food Id not found");
-                foreach (var food in Foods)
+            foreach (var food in Foods)
             {
                 var requestFood = request.BookingFoods.First(x => x.FoodId == food.Id);
                 booking.BookingFoods.Add(new BookingFood()
@@ -98,11 +104,11 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                     BookingId = booking.Id,
                     FoodId = food.Id,
                     UnitPrice = food.Price,
-                    Quanlity = requestFood.Quanlity              
-                    });
+                    Quanlity = requestFood.Quanlity
+                });
                 booking.TotalPrice += food.Price * requestFood.Quanlity;
             }
-               
+
             try
             {
                 await unitOfWork.BeginTransaction(cancellationToken);
@@ -110,7 +116,7 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                 await BookingFoodRepository.AddRange(booking.BookingFoods);
                 await repository.CreateAsync(booking);
                 var result = await unitOfWork.SaveChangeAsync(cancellationToken);
-                if(result < 0)
+                if (result < 0)
                 {
                     await unitOfWork.RollbackTransaction(cancellationToken);
                     return new ApiErrorResult<CreateBookingModel>("Error occurred while create booking");
@@ -123,6 +129,11 @@ namespace Cinema.Application.Features.Booking.Commands.Create
             }
             catch (DbUpdateConcurrencyException)
             {
+                await seatHoldService.ReleaseSeatsAsync(
+                     request.ShowtimeId,
+                     request.BookingSeats
+                     .Select(x => x.SeatId)
+                     .ToList());
                 await unitOfWork.RollbackTransaction(cancellationToken);
                 logger.LogInformation("end:CreateBookingCommandHandler ");
                 return new ApiErrorResult<CreateBookingModel>("One or more seats were just reserved by another user");

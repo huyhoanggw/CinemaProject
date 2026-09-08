@@ -123,3 +123,6 @@ D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Cinema.SignalR.dll
 D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Cinema.SignalR.pdb
 D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Cinema.Contracts.dll
 D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\Cinema.Contracts.pdb
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\RESPite.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\asp\CinemaProjectSolution\Cinema.Api\bin\Debug\net8.0\System.IO.Hashing.dll

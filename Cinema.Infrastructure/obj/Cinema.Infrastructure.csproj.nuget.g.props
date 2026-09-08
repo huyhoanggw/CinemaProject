@@ -15,6 +15,7 @@
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)stackexchange.redis\3.1.31\build\StackExchange.Redis.props" Condition="Exists('$(NuGetPackageRoot)stackexchange.redis\3.1.31\build\StackExchange.Redis.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.9\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.9\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\9.0.9\build\net8.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\9.0.9\build\net8.0\Microsoft.EntityFrameworkCore.Design.props')" />

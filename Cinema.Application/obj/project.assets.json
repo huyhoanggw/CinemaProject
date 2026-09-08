@@ -986,8 +986,8 @@
     },
     "Cinema.Contracts/1.0.0": {
       "type": "project",
-      "path": "../SeedWorks/Cinema.Contracts.csproj",
-      "msbuildProject": "../SeedWorks/Cinema.Contracts.csproj"
+      "path": "../Cinema.Contracts/Cinema.Contracts.csproj",
+      "msbuildProject": "../Cinema.Contracts/Cinema.Contracts.csproj"
     },
     "Cinema.Domain/1.0.0": {
       "type": "project",
@@ -1040,11 +1040,11 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\asp\\CinemaProjectSolution\\Cinema.Contracts\\Cinema.Contracts.csproj": {
+              "projectPath": "D:\\asp\\CinemaProjectSolution\\Cinema.Contracts\\Cinema.Contracts.csproj"
+            },
             "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Cinema.Domain.csproj": {
               "projectPath": "D:\\asp\\CinemaProjectSolution\\Cinema.Domain\\Cinema.Domain.csproj"
-            },
-            "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj": {
-              "projectPath": "D:\\asp\\CinemaProjectSolution\\SeedWorks\\Cinema.Contracts.csproj"
             }
           }
         }

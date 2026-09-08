@@ -857,7 +857,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.5": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -1006,11 +1006,11 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/10.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/10.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
-          "System.Diagnostics.DiagnosticSource": "10.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.5",
+          "System.Diagnostics.DiagnosticSource": "10.0.5"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
@@ -1242,6 +1242,40 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
+      "RESPite/3.1.31": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "10.0.5"
+        },
+        "compile": {
+          "lib/net8.0/RESPite.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/RESPite.dll": {}
+        }
+      },
+      "StackExchange.Redis/3.1.31": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.5",
+          "RESPite": "3.1.31",
+          "System.IO.Hashing": "10.0.5",
+          "System.IO.Pipelines": "10.0.5"
+        },
+        "compile": {
+          "lib/net8.0/StackExchange.Redis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/StackExchange.Redis.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/StackExchange.Redis.props": {}
+        }
+      },
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -1421,7 +1455,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/10.0.0": {
+      "System.Diagnostics.DiagnosticSource/10.0.5": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -1497,6 +1531,22 @@
           "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.IO.Hashing/10.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
         }
       },
       "System.IO.Pipelines/10.0.10": {
@@ -3525,10 +3575,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
-      "sha512": "L3AdmZ1WOK4XXT5YFPEwyt0ep6l8lGIPs7F5OOBZc77Zqeo01Of7XXICy47628sdVl0v/owxYJTe86DTgFwKCA==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.5": {
+      "sha512": "iVMtq9eRvzyhx8949EGT0OCYJfXi737SbRVzWXE5GrOgGj5AaZ9eUuxA/BSUfmOMALKn/g8KfFaNQw0eiB3lyA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3551,7 +3601,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -3739,10 +3789,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/10.0.0": {
-      "sha512": "FU/IfjDfwaMuKr414SSQNTIti/69bHEMb+QKrskRb26oVqpx3lNFXMjs/RC9ZUuhBhcwDM2BwOgoMw+PZ+beqQ==",
+    "Microsoft.Extensions.Logging.Abstractions/10.0.5": {
+      "sha512": "9HOdqlDtPptVcmKAjsQ/Nr5Rxfq6FMYLdhvZh1lVmeKR738qeYecQD7+ldooXf+u2KzzR1kafSphWngIM3C6ug==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/10.0.0",
+      "path": "microsoft.extensions.logging.abstractions/10.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3806,7 +3856,7 @@
         "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.10.0.5.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4128,6 +4178,53 @@
         "readme.md"
       ]
     },
+    "RESPite/3.1.31": {
+      "sha512": "u+MFK6FzGWngKaY3wJ/V9vQSVe/NSqpk0IYYw6ACwmlPq5eTnsyZGlzEa3YMifJGVs3omrl5MkgigB1jZYNnGg==",
+      "type": "package",
+      "path": "respite/3.1.31",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0/RESPite.dll",
+        "lib/net461/RESPite.dll",
+        "lib/net472/RESPite.dll",
+        "lib/net6.0/RESPite.dll",
+        "lib/net8.0/RESPite.dll",
+        "lib/netstandard2.0/RESPite.dll",
+        "readme.md",
+        "respite.3.1.31.nupkg.sha512",
+        "respite.nuspec",
+        "seredis.png"
+      ]
+    },
+    "StackExchange.Redis/3.1.31": {
+      "sha512": "QillloeZxgw9+IWmnowTrjrn+JV7JIMVzr1JiUpCa7pJQI48rtcqG9yy6u5UBRiTuCiKU5909aRu67Ch6gWVMg==",
+      "type": "package",
+      "path": "stackexchange.redis/3.1.31",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/dotnet/cs/StackExchange.Redis.Build.dll",
+        "analyzers/dotnet/cs/StackExchange.Redis.CodeFixes.dll",
+        "build/StackExchange.Redis.props",
+        "lib/net10.0/StackExchange.Redis.dll",
+        "lib/net10.0/StackExchange.Redis.xml",
+        "lib/net461/StackExchange.Redis.dll",
+        "lib/net461/StackExchange.Redis.xml",
+        "lib/net472/StackExchange.Redis.dll",
+        "lib/net472/StackExchange.Redis.xml",
+        "lib/net6.0/StackExchange.Redis.dll",
+        "lib/net6.0/StackExchange.Redis.xml",
+        "lib/net8.0/StackExchange.Redis.dll",
+        "lib/net8.0/StackExchange.Redis.xml",
+        "lib/netstandard2.0/StackExchange.Redis.dll",
+        "lib/netstandard2.0/StackExchange.Redis.xml",
+        "seredis.png",
+        "stackexchange.redis.3.1.31.nupkg.sha512",
+        "stackexchange.redis.nuspec"
+      ]
+    },
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -4379,10 +4476,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Diagnostics.DiagnosticSource/10.0.0": {
-      "sha512": "0KdBK+h7G13PuOSC2R/DalAoFMvdYMznvGRuICtkdcUMXgl/gYXsG6z4yUvTxHSMACorWgHCU1Faq0KUHU6yAQ==",
+    "System.Diagnostics.DiagnosticSource/10.0.5": {
+      "sha512": "CCbzHQ26L3jskdwHh+4bxxW84lUMIrAAmeSlpO69AlrQV0DKbj1/I+feLaLSuZeqXPr9UlSy0OcgZoXOk2a6/g==",
       "type": "package",
-      "path": "system.diagnostics.diagnosticsource/10.0.0",
+      "path": "system.diagnostics.diagnosticsource/10.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4402,7 +4499,7 @@
         "lib/net9.0/System.Diagnostics.DiagnosticSource.xml",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
         "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
-        "system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.10.0.5.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4495,6 +4592,35 @@
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
         "system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
+    "System.IO.Hashing/10.0.5": {
+      "sha512": "8IBJWcCT9+e4Bmevm4T7+fQEiAh133KGiz4oiVTgJckd3Q76OFdR1falgn9lpz7+C4HJvogCDJeAa2QmvbeVtg==",
+      "type": "package",
+      "path": "system.io.hashing/10.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Hashing.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Hashing.targets",
+        "lib/net10.0/System.IO.Hashing.dll",
+        "lib/net10.0/System.IO.Hashing.xml",
+        "lib/net462/System.IO.Hashing.dll",
+        "lib/net462/System.IO.Hashing.xml",
+        "lib/net8.0/System.IO.Hashing.dll",
+        "lib/net8.0/System.IO.Hashing.xml",
+        "lib/net9.0/System.IO.Hashing.dll",
+        "lib/net9.0/System.IO.Hashing.xml",
+        "lib/netstandard2.0/System.IO.Hashing.dll",
+        "lib/netstandard2.0/System.IO.Hashing.xml",
+        "system.io.hashing.10.0.5.nupkg.sha512",
+        "system.io.hashing.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.IO.Pipelines/10.0.10": {
@@ -5177,8 +5303,8 @@
     },
     "Cinema.Contracts/1.0.0": {
       "type": "project",
-      "path": "../SeedWorks/Cinema.Contracts.csproj",
-      "msbuildProject": "../SeedWorks/Cinema.Contracts.csproj"
+      "path": "../Cinema.Contracts/Cinema.Contracts.csproj",
+      "msbuildProject": "../Cinema.Contracts/Cinema.Contracts.csproj"
     },
     "Cinema.Domain/1.0.0": {
       "type": "project",
@@ -5195,7 +5321,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.9",
       "Microsoft.Extensions.Configuration.FileExtensions >= 10.0.10",
-      "Microsoft.Extensions.Configuration.Json >= 10.0.10"
+      "Microsoft.Extensions.Configuration.Json >= 10.0.10",
+      "StackExchange.Redis >= 3.1.31"
     ]
   },
   "packageFolders": {
@@ -5287,6 +5414,10 @@
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[10.0.10, )"
+          },
+          "StackExchange.Redis": {
+            "target": "Package",
+            "version": "[3.1.31, )"
           }
         },
         "imports": [
