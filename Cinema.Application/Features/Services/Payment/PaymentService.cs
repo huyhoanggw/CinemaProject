@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Features.Services.Payment
 {
-    public class PaymentService(IBookingRepository bookingRepository, IPaymentRepository paymentRepository
+    public class PaymentService(IBookingRepository bookingRepository, IBookingSeatRepository bookingseatRepository, IPaymentRepository paymentRepository
         , IUnitOfWork unitOfwork, IEnumerable<IPaymentGateway> gateways, IFoodRepository foodRepository, ISeatHoldService seatHoldService, IShowtimeSeatRepository showtimeSeatRepository) : IPaymentService
     {
         public async Task<PaymentResult> CreatePaymentAsync(Guid BookingId, PaymentMethod paymentMethod, string ReturnUrl, string clientIp, CancellationToken cancellationToken)
@@ -61,8 +61,11 @@ namespace Cinema.Application.Features.Services.Payment
             // lay bookingcode de tru so luong food
             var booking = await bookingRepository.GetByAsync(x => x.BookingCode.Equals(orderCode));
             if (booking is null) return false;
+            // lay bookingseat để láy ra showtimeseat
+            var bookingseats = await bookingseatRepository.GetBookingSeatsByBookingId(booking.Id);
+            
             // lay showtime seat de xoa key trong redis
-            var showtimeseat = await showtimeSeatRepository.GetShowtimeSeatsByBookingSeats(booking.BookingSeats.ToList());
+            var showtimeseat = await showtimeSeatRepository.GetShowtimeSeatsByBookingSeats(bookingseats.ToList());
             if (showtimeseat is null) return false;
             if (booking.BookingFoods.Any())
             {
@@ -85,6 +88,10 @@ namespace Cinema.Application.Features.Services.Payment
             payment.TransactionId = result.TransactionId;
             payment.PaidAt = DateTime.UtcNow;
             payment.Booking.Status = BookingStatus.Confirmed;
+            foreach (var seat in showtimeseat)
+            {
+                seat.Status = ShowtimeSeatStatus.Booked;
+            }
             await seatHoldService.ReleaseSeatsAsync(booking.ShowtimeId, showtimeseat.Select(x => x.SeatId).ToList());
             await unitOfwork.SaveChangeAsync(cancellationToken);
             return true;

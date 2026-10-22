@@ -1,6 +1,7 @@
 ﻿using Cinema.Application.Interfaces;
 using Cinema.Domain.Enitities;
 using Cinema.Infrastructure.Database;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace Cinema.Infrastructure.Repositories
         private readonly ILogger<BaseRepository<BookingSeat>> _logger;
 
         public BookingSeatRepository(CinemaDbcontext context, ILogger<BaseRepository<BookingSeat>> logger) : base(context, logger)
-        {   
+        {
             _context = context;
             _logger = logger;
         }
@@ -26,9 +27,9 @@ namespace Cinema.Infrastructure.Repositories
             await _context.AddRangeAsync(bookingSeats);
         }
 
-        public Task<IEnumerable<BookingSeat>> GetBookingSeatByIds(List<Guid> Id)
+        public async Task<IEnumerable<BookingSeat>> GetBookingSeatsByBookingId(Guid Id)
         {
-            throw new NotImplementedException();
+            return await _context.Set<BookingSeat>().Where(x => x.BookingId == Id).ToListAsync();
         }
     }
 }

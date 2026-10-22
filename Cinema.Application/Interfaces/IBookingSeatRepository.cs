@@ -9,7 +9,7 @@ namespace Cinema.Application.Interfaces
 {
     public interface IBookingSeatRepository : IBaseRepository<BookingSeat>
     {
-        Task<IEnumerable< BookingSeat>> GetBookingSeatByIds(List<Guid> Id);
+        Task<IEnumerable<BookingSeat>> GetBookingSeatsByBookingId(Guid Id);
         public Task AddRange(IEnumerable<BookingSeat> bookingSeats);
     }
 }

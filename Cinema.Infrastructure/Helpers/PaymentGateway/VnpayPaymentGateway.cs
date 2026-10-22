@@ -112,9 +112,10 @@ namespace Cinema.Infrastructure.Helpers.PaymentGateway
 
 
             var vnpayParams = new SortedDictionary<string, string>(request);
-            var querystring = BuildQueryString(vnpayParams);
+
             vnpayParams.Remove("vnp_SecureHash");
             vnpayParams.Remove("vnp_SecureHashType");
+            var querystring = BuildQueryString(vnpayParams);
             var expectedHash = ComputeHmacSha512(options.vnp_HashSecret, querystring);
 
             var validSignature =

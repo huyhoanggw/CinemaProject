@@ -12,8 +12,8 @@ namespace Cinema.Application.Features.Payment.Command.CreatePayment
 {
     public class CreatePaymentCommand : IRequest<ApiResult<PaymentResult>>
     {
-      public  Guid BookingId {  get; set; }
+        public Guid BookingId { get; set; }
         public PaymentMethod paymentMethod { get; set; }
-        public string returnUrl { get; set; }
+        public string returnUrl { get; } = "https://roast-gluten-snout.ngrok-free.dev/api/payment/vnp/return_url";
     }
 }

@@ -9,6 +9,6 @@ namespace Cinema.Application.Interfaces.Hubs
 {
     public interface ISeatNotificationService
     {
-        Task SeatStatusChanged(Guid showtimeId, Guid SeatId,ShowtimeSeatStatus status , DateTime holdUntil);
+        Task SeatStatusChanged(Guid showtimeId, Guid SeatId, ShowtimeSeatStatus status, DateTime? holdUntil = null);
     }
 }

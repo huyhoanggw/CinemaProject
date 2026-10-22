@@ -32,7 +32,7 @@ namespace Cinema.Infrastructure.Repositories
 
         public async Task<List<ShowtimeSeat>> GetShowtimeSeatsByBookingSeats(List<BookingSeat> bookingSeat)
         {
-            return await context.Set<ShowtimeSeat>().Where(x => bookingSeat.Select(x => x.ShowtimeSeatId).Equals(x.Id)).ToListAsync();
+            return await context.Set<ShowtimeSeat>().Where(x => bookingSeat.Select(x => x.ShowtimeSeatId).Contains(x.Id)).ToListAsync();
         }
     }
 }

@@ -116,15 +116,10 @@ namespace Cinema.Application.Features.Booking.Commands.Create
                 await BookingFoodRepository.AddRange(booking.BookingFoods);
                 await repository.CreateAsync(booking);
                 var result = await unitOfWork.SaveChangeAsync(cancellationToken);
-                if (result < 0)
-                {
-                    await unitOfWork.RollbackTransaction(cancellationToken);
-                    return new ApiErrorResult<CreateBookingModel>("Error occurred while create booking");
-                }
                 await unitOfWork.CommitTransaction(cancellationToken);
                 var bookingFromMapper = mapper.Map<CreateBookingModel>(booking);
                 logger.LogInformation("end:CreateBookingCommandHandler ");
-                return new ApiSuccessResult<CreateBookingModel>("Create Booking Successfully");
+                return new ApiSuccessResult<CreateBookingModel>(bookingFromMapper, "Create Booking Successfully");
 
             }
             catch (DbUpdateConcurrencyException)

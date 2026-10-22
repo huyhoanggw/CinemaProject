@@ -9,17 +9,14 @@ namespace Cinema.Contracts.Models.Booking
 {
     public record CreateBookingModel
     {
-       public  string UserId{get; set;}
-         public Guid ShowtimeId {get; set;}
-       public Domain.Enitities.Showtime Showtime {get; set;}
-       public string BookingCode{get; set;}
-       public decimal TotalPrice{get; set;}
-       public BookingStatus Status {get; set;}
-      public ICollection<BookingSeat> BookingSeats{get; set;}
-      public ICollection<BookingFood> BookingFoods {get; set;}
-      public Domain.Enitities.Payment? Payment { get; set; }
+        public string UserId { get; set; }
+        public Guid ShowtimeId { get; set; }
+        public string BookingCode { get; set; }
+        public decimal TotalPrice { get; set; }
+        public BookingStatus Status { get; set; }
+        public Domain.Enitities.Payment? Payment { get; set; }
     }
-         
-            
-    
+
+
+
 }

@@ -14,7 +14,7 @@ namespace Cinema.IdentityApi.Helpers
             var permissions = await dbcontext.Set<Permission>().ToListAsync();
             foreach (var permission in permissions)
             {
-                await PermissionHelper.AddPermissionToRoleAsync(dbcontext, "31502c78-7a3f-4f5f-96b6-3504e1caee9a", permission.Code);
+                await PermissionHelper.AddPermissionToRoleAsync(dbcontext, "4bc8e6af-9e55-4116-b1a8-20960bebb8bd", permission.Code);
 
             }
         }

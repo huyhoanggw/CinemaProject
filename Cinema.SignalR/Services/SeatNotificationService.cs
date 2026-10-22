@@ -13,7 +13,7 @@ namespace Cinema.SignalR.Services
 {
     public class SeatNotificationService(IHubContext<SeatHub> context) : ISeatNotificationService
     {
-        public async Task SeatStatusChanged(Guid showtimeId, Guid SeatId, ShowtimeSeatStatus status, DateTime holdUntil)
+        public async Task SeatStatusChanged(Guid showtimeId, Guid SeatId, ShowtimeSeatStatus status, DateTime? holdUntil = null)
         {
             await context.Clients.Group(showtimeId.ToString()).SendAsync("SeatsStatusChanged", new
             {

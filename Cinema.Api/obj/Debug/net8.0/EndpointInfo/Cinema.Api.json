@@ -1044,7 +1044,8 @@
           },
           "returnUrl": {
             "type": "string",
-            "nullable": true
+            "nullable": true,
+            "readOnly": true
           }
         },
         "additionalProperties": false
