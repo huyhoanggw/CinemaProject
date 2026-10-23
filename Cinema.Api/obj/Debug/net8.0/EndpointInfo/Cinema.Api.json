@@ -344,19 +344,48 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/CreateMovieCommand"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateMovieCommand"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateMovieCommand"
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "PosterUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "TrailerUrl": {
+                    "type": "string"
+                  },
+                  "GenreIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "PosterUrl": {
+                  "style": "form"
+                },
+                "TrailerUrl": {
+                  "style": "form"
+                },
+                "GenreIds": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -997,36 +1026,6 @@
         "properties": {
           "name": {
             "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateMovieCommand": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "posterUrl": {
-            "type": "string",
-            "nullable": true
-          },
-          "trailerUrl": {
-            "type": "string",
-            "nullable": true
-          },
-          "genreIds": {
-            "type": "array",
-            "items": {
-              "type": "string",
-              "format": "uuid"
-            },
             "nullable": true
           }
         },

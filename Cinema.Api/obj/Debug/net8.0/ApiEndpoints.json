@@ -220,9 +220,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "Cinema.Application.Features.Movie.Commands.Create.CreateMovieCommand",
-        "IsRequired": true
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PosterUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "TrailerUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GenreIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

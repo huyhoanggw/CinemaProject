@@ -2,6 +2,7 @@
 using Cinema.Contracts.Reponse;
 using Cinema.Domain.Enitities;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,10 @@ namespace Cinema.Application.Features.Movie.Commands.Create
 {
     public class CreateMovieCommand : IRequest<ApiResult<CreateMovieDto>>
     {
-      public  string Name { get; set; }
-        public string?  Description { get; set; }
-        public string? PosterUrl { get; set; }
-        public string? TrailerUrl {  get; set; }
-        public List<Guid> GenreIds{ get; set; } = [];
+        public string Name { get; set; }
+        public string? Description { get; set; }
+        public IFormFile? PosterUrl { get; set; }
+        public string? TrailerUrl { get; set; }
+        public List<Guid> GenreIds { get; set; } = [];
     }
 }

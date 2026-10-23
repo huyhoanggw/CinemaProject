@@ -14,25 +14,25 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cinema.Api.Controllers
 {
-    [Authorize]    
-    
-    public class MovieController(IMediator mediator , ILogger<MovieController> logger) : BaseController
+    [Authorize]
+
+    public class MovieController(IMediator mediator, ILogger<MovieController> logger) : BaseController
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> GetMovies([FromQuery] int pageNumber , int PageSize)
+        public async Task<IActionResult> GetMovies([FromQuery] int pageNumber, int PageSize)
         {
-            var result = await mediator.Send(new GetMoviePagingQuery() {PageNumber = pageNumber , PageSize = PageSize});
+            var result = await mediator.Send(new GetMoviePagingQuery() { PageNumber = pageNumber, PageSize = PageSize });
             return Ok(result);
-                
+
         }
         [PermissionAttribute(Permission.MovieCreate)]
         [HttpPost]
-        public async Task<IActionResult> AddMovie([FromBody]CreateMovieCommand request)
+        public async Task<IActionResult> AddMovie([FromForm] CreateMovieCommand request)
         {
             var result = await mediator.Send(request);
             return result.IsSuccess ? Ok(result) : NotFound(result);
-                
+
         }
 
         [PermissionAttribute(Permission.MovieUpdate)]
@@ -47,7 +47,7 @@ namespace Cinema.Api.Controllers
         [HttpDelete]
         public async Task<IActionResult> DeleteShowtime([FromQuery] Guid Id)
         {
-            var result = await mediator.Send(new DeleteMovieCommand() { Id = Id } );
+            var result = await mediator.Send(new DeleteMovieCommand() { Id = Id });
             return result.IsSuccess ? Ok(result) : NotFound(result);
 
         }

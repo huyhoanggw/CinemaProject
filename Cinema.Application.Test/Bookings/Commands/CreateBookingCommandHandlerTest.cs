@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Castle.Core.Logging;
 using Cinema.Application.Features.Booking.Commands.Create;
+using Cinema.Application.Features.Services.SeatHold;
 using Cinema.Application.Interfaces;
 using Cinema.Contracts.Models.Booking;
 using Cinema.Contracts.Models.Food;
@@ -19,7 +20,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.Application.Test.Bookings.Commands
 {
-    public class CreateBookingCommandHandlerTest 
+    public class CreateBookingCommandHandlerTest
     {
         private readonly Mock<IBookingRepository> _bookingRepository;
         private readonly Mock<IShowtimeRepository> _showtimeRepository;
@@ -31,6 +32,7 @@ namespace Cinema.Application.Test.Bookings.Commands
         private readonly Mock<ILogger<CreateBookingCommandHandler>> _logger;
         private readonly Mock<IMapper> _mapper;
         private readonly Mock<IHttpContextAccessor> _httpcontext;
+        private readonly Mock<ISeatHoldService> _SeatholdService;
         private CreateBookingCommandHandler _handler;
         public CreateBookingCommandHandlerTest()
         {
@@ -44,12 +46,13 @@ namespace Cinema.Application.Test.Bookings.Commands
             _logger = new Mock<ILogger<CreateBookingCommandHandler>>();
             _mapper = new Mock<IMapper>();
             _httpcontext = new Mock<IHttpContextAccessor>();
-            _handler = new CreateBookingCommandHandler(_bookingRepository.Object , _showtimeRepository.Object,_showtimeSeatRepository.Object, _logger.Object
-                , _mapper.Object,_unitOfWork.Object,_httpcontext.Object, _foodRepository.Object,_bookingSeatRepository.Object,_bookingFoodRepository.Object);
-              
+            _SeatholdService = new Mock<ISeatHoldService>();
+            _handler = new CreateBookingCommandHandler(_bookingRepository.Object, _showtimeRepository.Object, _showtimeSeatRepository.Object, _logger.Object
+                , _mapper.Object, _unitOfWork.Object, _httpcontext.Object, _foodRepository.Object, _bookingSeatRepository.Object, _bookingFoodRepository.Object, _SeatholdService.Object);
+
         }
 
-      
+
         [Fact]
         public async Task Handler_ShouldreturnError_WhenShowtimeNotFound()
         {
@@ -57,15 +60,15 @@ namespace Cinema.Application.Test.Bookings.Commands
             var showtimeId = Guid.NewGuid();
             var seatId = Guid.NewGuid();
             var foodId = Guid.NewGuid();
-            var bookingseats = new List<CreateBookingSeatModel> 
+            var bookingseats = new List<CreateBookingSeatModel>
             {
                new(){ SeatId = seatId }
             };
-            var bookingFoods = new List<CreateBookingFoodModel> 
+            var bookingFoods = new List<CreateBookingFoodModel>
             {
                  new(){ FoodId = foodId , Quanlity = 1  }
             };
-            
+
             var command = new CreateBookingCommand()
             {
                 ShowtimeId = showtimeId,
@@ -87,9 +90,9 @@ namespace Cinema.Application.Test.Bookings.Commands
             //Showtime
             _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync((Showtime?)null);
             //food
-            _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId , Quanlity = 50});
+            _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
             //Act 
-            var result = await _handler.Handle(command , CancellationToken.None);
+            var result = await _handler.Handle(command, CancellationToken.None);
             // Assert
             Assert.False(result.IsSuccess);
         }
@@ -117,7 +120,7 @@ namespace Cinema.Application.Test.Bookings.Commands
             };
             //ShowtimeSeat
             _showtimeSeatRepository.Setup(x => x.GetByShowtimeAndSeatIdsAsync(showtimeId, It.IsAny<List<Guid>>()))
-                .ReturnsAsync(new List<ShowtimeSeat>() { new ShowtimeSeat() 
+                .ReturnsAsync(new List<ShowtimeSeat>() { new ShowtimeSeat()
                 {
                       Id = Guid.NewGuid(),
                       ShowtimeId = showtimeId,
@@ -136,11 +139,11 @@ namespace Cinema.Application.Test.Bookings.Commands
             var user = new DefaultHttpContext() { User = claimPrincipal };
             _httpcontext.Setup(x => x.HttpContext).Returns(user);
             //Showtime
-            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId });
             //food
             _foodRepository.Setup(x => x.getFoodByIds(It.IsAny<List<Guid>>())).ReturnsAsync(new List<Food>() {
                 new Food() { Id = foodId,Quanlity = 50 }
-             
+
             });
 
             // unitOfwork 
@@ -162,7 +165,7 @@ namespace Cinema.Application.Test.Bookings.Commands
                 .Setup(x => x.RollbackTransaction(
                     It.IsAny<CancellationToken>()))
                 .Returns(Task.CompletedTask);
-               // mapper 
+            // mapper 
             _mapper.Setup(x => x.Map<CreateBookingModel>(It.IsAny<Booking>)).Returns(new CreateBookingModel());
             //booking
             _bookingRepository.Setup(x => x.CreateAsync(It.IsAny<Booking>())).ReturnsAsync(new Booking() { Id = Guid.NewGuid() });
@@ -212,7 +215,7 @@ namespace Cinema.Application.Test.Bookings.Commands
             var user = new DefaultHttpContext() { User = claimPrincipal };
             _httpcontext.Setup(x => x.HttpContext).Returns(user);
             //Showtime
-            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId });
             //food
             _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
             //Act 
@@ -258,7 +261,7 @@ namespace Cinema.Application.Test.Bookings.Commands
             var user = new DefaultHttpContext() { User = claimPrincipal };
             _httpcontext.Setup(x => x.HttpContext).Returns(user);
             //Showtime
-            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId });
             //food
             _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
             //Act 
@@ -305,7 +308,7 @@ namespace Cinema.Application.Test.Bookings.Commands
             var user = new DefaultHttpContext() { User = claimPrincipal };
             _httpcontext.Setup(x => x.HttpContext).Returns(user);
             //Showtime
-            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId });
             //food
             _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
             //Act 
@@ -340,9 +343,9 @@ namespace Cinema.Application.Test.Bookings.Commands
                 .ReturnsAsync(new List<ShowtimeSeat>()
                 {
                     new ShowtimeSeat()
-                    {Id = Guid.NewGuid() , SeatId = seatId , Price = 59000 
+                    {Id = Guid.NewGuid() , SeatId = seatId , Price = 59000
                     , ShowtimeId = showtimeId , Status = ShowtimeSeatStatus.Available}
-                }); 
+                });
             // httpcontext
             var claims = new List<Claim>()
                 {
@@ -353,7 +356,7 @@ namespace Cinema.Application.Test.Bookings.Commands
             var user = new DefaultHttpContext() { User = claimPrincipal };
             _httpcontext.Setup(x => x.HttpContext).Returns(user);
             //Showtime
-            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId});
+            _showtimeRepository.Setup(x => x.FindByIdAsync(showtimeId)).ReturnsAsync(new Showtime() { Id = showtimeId });
             //food
             _foodRepository.Setup(x => x.FindByIdAsync(foodId)).ReturnsAsync(new Food() { Id = foodId, Quanlity = 50 });
             //Act 

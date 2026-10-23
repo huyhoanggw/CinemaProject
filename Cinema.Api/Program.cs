@@ -7,6 +7,7 @@ using Cinema.SignalR.DI;
 using Cinema.SignalR.Hubs;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 namespace Cinema.Api
 {
@@ -17,6 +18,12 @@ namespace Cinema.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            //Add SeriLog
+            Serilog.Log.Logger = new LoggerConfiguration().Enrich.FromLogContext().WriteTo.Console()
+                .WriteTo.File("logs/cinema-log-.txt", rollingInterval: RollingInterval.Day, retainedFileCountLimit: 7).CreateLogger();
+            builder.Host.UseSerilog();
+            //add healthCheck
+            builder.Services.AddHealthChecks().AddSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             builder.Services.AddSignalR();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -160,7 +167,8 @@ namespace Cinema.Api
                 }
             });
             var app = builder.Build();
-
+            app.UseSerilogRequestLogging();
+            app.MapHealthChecks("/health");
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {

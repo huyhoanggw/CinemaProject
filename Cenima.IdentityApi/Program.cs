@@ -1,16 +1,19 @@
 
 using Cenima.IdentityApi.Database;
 using Cenima.IdentityApi.Database.Models;
+using Cenima.IdentityApi.Pages;
 using Cinema.IdentityApi.Database;
 using Cinema.IdentityApi.Database.Configuration;
 using Cinema.IdentityApi.Helpers;
 using Cinema.IdentityApi.Interfaces;
 using Cinema.IdentityApi.PermissionModule.Seeder;
 using Cinema.IdentityApi.Services;
+using Duende.IdentityModel;
 using Duende.IdentityServer.EntityFramework.DbContexts;
 using Duende.IdentityServer.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace Cinema.IdentityApi
 {
@@ -19,6 +22,11 @@ namespace Cinema.IdentityApi
         public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            // add serilog
+            Serilog.Log.Logger = new LoggerConfiguration().MinimumLevel.Information().Enrich.FromLogContext()
+             .WriteTo.Console()
+             .WriteTo.File("logs/identity-log-.txt", rollingInterval: RollingInterval.Day, retainedFileCountLimit: 7).CreateLogger();
+            builder.Host.UseSerilog();
             //add services 
             builder.Services.AddTransient<IProfileService, ProfileService>();
             builder.Services.AddTransient<IPermissionServices, PermissionService>();
@@ -28,6 +36,8 @@ namespace Cinema.IdentityApi
                 option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 
             });
+            // add healtcheck
+            builder.Services.AddHealthChecks().AddSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             // add identity
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbcontext>().AddDefaultTokenProviders();
             // add identity server
@@ -58,7 +68,8 @@ namespace Cinema.IdentityApi
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
-
+            app.UseSerilogRequestLogging();
+            app.MapHealthChecks("/health");
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
